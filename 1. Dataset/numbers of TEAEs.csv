@@ -1,0 +1,118 @@
+study,treatment,responders,sampleSize,rob,ind,category
+Harrison SA 2018,Aldafermin,41,55,1,1,FGF19 analog
+Harrison SA 2018,Placebo,19,27,1,1,Placebo
+Harrison SA 2021a,Aldafermin,46,53,1,1,FGF19 analog
+Harrison SA 2021a,Placebo,22,25,1,1,Placebo
+Harrison SA 2022,Aldafermin,102,127,1,1,FGF19 analog
+Harrison SA 2022,Placebo,36,43,1,1,Placebo
+Harrison SA 2021b,Efruxifermin,54,58,1,1,FGF21 analog
+Harrison SA 2021b,Placebo,16,21,1,1,Placebo
+Harrison SA 2023a,Efruxifermin,78,83,2,1,FGF21 analog
+Harrison SA 2023a,Placebo,38,43,2,1,Placebo
+Loomba R 2023a,Pegbelfermin,134,148,1,1,FGF21 analog
+Loomba R 2023a,Placebo,42,49,1,1,Placebo
+Loomba R 2023b,Pegozafermin,119,150,1,1,FGF21 analog
+Loomba R 2023b,Placebo,47,69,1,1,Placebo
+Loomba R 2023c,Pegozafermin,40,63,1,1,FGF21 analog
+Loomba R 2023c,Placebo,8,18,1,1,Placebo
+Sanyal A 2019,Pegbelfermin,31,49,1,1,FGF21 analog
+Sanyal A 2019,Placebo,15,26,1,1,Placebo
+Patel K 2020,Cilofexor,93,112,2,1,FXR agonist
+Patel K 2020,Placebo,19,28,2,1,Placebo
+Ratziu V 2023a,Vonafexor,54,64,1,1,FXR agonist
+Ratziu V 2023a,Placebo,22,32,1,1,Placebo
+Cusi K 2016,Pioglitazone,15,50,1,1,TZDs
+Cusi K 2016,Placebo,7,51,1,1,Placebo
+Sanyal A 2023,Tropifexor,98,101,1,1,FXR agonist
+Sanyal A 2023,Placebo,46,51,1,1,Placebo
+Younossi ZM; Ratziu V 2019,Obeticholic acid,1602,1652,1,1,FXR agonist
+Younossi ZM; Ratziu V 2019,Placebo,766,825,1,1,Placebo
+Armstrong MJ 2016,Liraglutide,23,26,1,1,Incretins
+Armstrong MJ 2016,Placebo,24,26,1,1,Placebo
+Alkhouri N 2022,Semaglutide,17,21,3,1,Incretins
+Alkhouri N 2022,Semaglutide + Cilofexor,34,44,3,1,FXR agonist + Incretins
+Alkhouri N 2022,Semaglutide + Firsocostat,19,22,3,1,DNL + Incretins
+Alkhouri N 2022,Semaglutide + Cilofexor + Firsocostat,19,21,3,1,DNL + FXR agonist + Incretins
+Newsome PN 2021,Semaglutide,224,239,1,1,Incretins
+Newsome PN 2021,Placebo,67,80,1,1,Placebo
+Francque SM 2021,Lanifibranor,121,166,1,1,PPAR agonist
+Francque SM 2021,Placebo,50,81,1,1,Placebo
+Gawrieh S 2021,Saroglitazar,40,78,1,1,PPAR agonist
+Gawrieh S 2021,Placebo,19,28,1,1,Placebo
+Harrison SA 2020a,MSDC-0602K,231,298,1,1,TZDs
+Harrison SA 2020a,Placebo,75,94,1,1,Placebo
+Harrison SA 2023b,PXL065,68,87,1,1,TZDs
+Harrison SA 2023b,Placebo,18,30,1,1,Placebo
+"Huang, Jee-Fu 2021",Pioglitazone,34,43,1,1,TZDs
+"Huang, Jee-Fu 2021",Placebo,35,47,1,1,Placebo
+Harrison SA 2019,Resmetirom,73,84,1,1,THR-beta agonist
+Harrison SA 2019,Placebo,28,41,1,1,Placebo
+Harrison SA 2023c,Resmetirom,716,822,1,1,THR-beta agonist
+Harrison SA 2023c,Placebo,260,318,1,1,Placebo
+Harrison SA 2024a,Resmetirom,592,645,1,1,THR-beta agonist
+Harrison SA 2024a,Placebo,298,321,1,1,Placebo
+Sanyal A 2010,Pioglitazone,43,80,1,1,TZDs
+Sanyal A 2010,Vitamin E,53,84,1,1,Vitamin E
+Sanyal A 2010,Placebo,50,83,1,1,Placebo
+Sanyal A 2024a,Survodutide,208,219,1,1,Incretins
+Sanyal A 2024a,Placebo,68,74,1,1,Placebo
+Flint A 2021,Semaglutide,31,34,1,1,Incretins
+Flint A 2021,Placebo,29,33,1,1,Placebo
+Shankar SS 2024,Cotadutide,42,51,1,1,Incretins
+Shankar SS 2024,Placebo,9,24,1,1,Placebo
+Loomba R 2023d,Semaglutide,1,47,1,1,Incretins
+Loomba R 2023d,Placebo,0,24,1,1,Placebo
+Loomba R 2024a,Tirzepatide,131,142,1,1,Incretins
+Loomba R 2024a,Placebo,40,48,1,1,Placebo
+Sanyal A 2024b,Retatrutide,66,79,1,1,Incretins
+Sanyal A 2024b,Placebo,15,19,1,1,Placebo
+Calle RA 2021,Clesacostat,167,244,1,1,DNL
+Calle RA 2021,Placebo,41,61,1,1,Placebo
+Loomba R 2024b,Denifanstat,99,112,1,1,DNL
+Loomba R 2024b,Placebo,46,56,1,1,Placebo
+Loomba R 2018,Firsocostat,71,100,1,1,DNL
+Loomba R 2018,Placebo,16,26,1,1,Placebo
+Loomba R 2021a,Denifanstat,43,68,1,1,DNL
+Loomba R 2021a,Placebo,19,31,1,1,Placebo
+Abdelmalek MF 2024,Pegbelfermin,106,115,1,1,FGF21 analog
+Abdelmalek MF 2024,Placebo,35,39,1,1,Placebo
+Harrison SA 2023d,Efruxifermin,19,20,1,1,FGF21 analog
+Harrison SA 2023d,Placebo,8,10,1,1,Placebo
+Rinella ME 2024,Aldafermin,98,104,1,1,FGF19 analog
+Rinella ME 2024,Placebo,49,56,1,1,Placebo
+Loomba R 2021b,Cilofexor,37,40,1,1,FXR agonist
+Loomba R 2021b,Firsocostat,34,40,1,1,DNL
+Loomba R 2021b,Placebo,31,39,1,1,Placebo
+Ratziu V 2022,EDP-305,71,108,1,1,FXR agonist
+Ratziu V 2022,Placebo,12,24,1,1,Placebo
+Neuschwander-Tetri BA 2015,Obeticholic acid,99,141,1,1,FXR agonist
+Neuschwander-Tetri BA 2015,Placebo,68,142,1,1,Placebo
+Loomba R 2021c,TERN-101,42,74,1,1,FXR agonist
+Loomba R 2021c,Placebo,10,26,1,1,Placebo
+Ratziu V 2023b,Obeticholic acid,567,606,1,1,FXR agonist
+Ratziu V 2023b,Placebo,290,313,1,1,Placebo
+Harrison SA 2020b,Seladelpar,121,127,1,1,PPAR agonist
+Harrison SA 2020b,Placebo,24,25,1,1,Placebo
+Ratziu V 2016,Elafibranor,171,182,1,1,PPAR agonist
+Ratziu V 2016,Placebo,85,92,1,1,Placebo
+NCT02704403,Elafibranor,1227,1433,1,1,PPAR agonist
+NCT02704403,Placebo,601,717,1,1,Placebo
+Noureddin M 2024,TERN-501,35,68,1,1,THR-beta agonist
+Noureddin M 2024,TERN-101,10,24,1,1,FXR agonist
+Noureddin M 2024,TERN-501 + TERN-101,26,46,1,1,FXR agonist + THR-beta agonist
+Noureddin M 2024,Placebo,11,24,1,1,Placebo
+Bril F 2019,Vitamin E,18,36,1,1,Vitamin E
+Bril F 2019,Vitamin E + Pioglitazone,23,37,1,1,TZDs + Vitamin E
+Bril F 2019,Placebo,15,32,1,1,Placebo
+Eriksson JW 2018,Dapagliflozin,8,21,1,1,SGLT2 inhibitor
+Eriksson JW 2018,Placebo,7,21,1,1,Placebo
+Cheung KS 2024,Empagliflozin,7,49,1,1,SGLT2 inhibitor
+Cheung KS 2024,Placebo,3,48,1,1,Placebo
+Alkhouri N 2024,Vitamin E,2,33,1,1,Vitamin E
+Alkhouri N 2024,Placebo,6,70,1,1,Placebo
+Song Y 2025,Vitamin E,7,58,1,1,Vitamin E
+Song Y 2025,Placebo,4,66,1,1,Placebo
+Sanyal A 2025,Semaglutide,690,800,1,1,Incretins
+Sanyal A 2025,Placebo,315,395,1,1,Placebo
+Lin J 2025,Dapagliflozin,44,78,1,1,SGLT2 inhibitor
+Lin J 2025,Placebo,49,76,1,1,Placebo

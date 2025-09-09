@@ -1,0 +1,71 @@
+study,treatment,mean,std.dev,sampleSize,rob,ind,category
+Harrison SA 2018,Aldafermin,-17.44181818,20.81428187,55,1,1,FGF19 analog
+Harrison SA 2018,Placebo,-0.6,23.9,27,1,1,Placebo
+Harrison SA 2021a,Aldafermin,-21.7,27.7,52,1,1,FGF19 analog
+Harrison SA 2021a,Placebo,-3.7,20.3,25,1,1,Placebo
+Harrison SA 2022,Aldafermin,-16.8171875,22.57077097,128,1,1,FGF19 analog
+Harrison SA 2022,Placebo,-5.2,21.63954713,43,1,1,Placebo
+Loomba R 2023b,Pegozafermin,-18.99312977,16.96088346,131,1,1,FGF21 analog
+Loomba R 2023b,Placebo,-6.2,17.18254929,61,1,1,Placebo
+Loomba R 2023c,Pegozafermin,-9.511538462,8.616938491,52,1,1,FGF21 analog
+Loomba R 2023c,Placebo,-5.2,8.485281374,18,1,1,Placebo
+Sanyal A 2019,Pegbelfermin,-18.04347826,19.33385806,46,1,1,FGF21 analog
+Sanyal A 2019,Placebo,-11,42.67317659,24,1,1,Placebo
+Neuschwander-Tetri BA 2015,Obeticholic acid,-27,37,121,1,1,FXR agonist
+Neuschwander-Tetri BA 2015,Placebo,-10,31,131,1,1,Placebo
+Patel K 2020,Cilofexor,-3.5,15.16536056,112,1,1,FXR agonist
+Patel K 2020,Placebo,-2,6.666666667,28,1,1,Placebo
+Ratziu V 2023a,Vonafexor,-2.3703125,13.59707154,64,1,1,FXR agonist
+Ratziu V 2023a,Placebo,-7.2,12.20396891,32,1,1,Placebo
+Younossi ZM; Ratziu V 2019,Obeticholic acid,-17.22967742,38.84986332,620,1,1,FXR agonist
+Younossi ZM; Ratziu V 2019,Placebo,-9.8,42.32446101,311,1,1,Placebo
+Armstrong MJ 2016,Liraglutide,-15.8,21.8,23,1,1,Incretins
+Armstrong MJ 2016,Placebo,-8.6,28.3,22,1,1,Placebo
+Francque SM 2021,Lanifibranor,-13.575,27.63231831,154,1,1,PPAR agonist
+Francque SM 2021,Placebo,-0.08,27.38676996,74,1,1,Placebo
+Cusi K 2016,Pioglitazone,-18,18.1934054,50,1,1,TZDs
+Cusi K 2016,Placebo,-5,27.62245463,51,1,1,Placebo
+Harrison SA 2023b,PXL065,-8.343678161,33.15440166,87,1,1,TZDs
+Harrison SA 2023b,Placebo,-7.2,32.86335345,30,1,1,Placebo
+"Huang, Jee-Fu 2021",Pioglitazone,-18,19.74765809,41,1,1,TZDs
+"Huang, Jee-Fu 2021",Placebo,-4.1,28.93630937,46,1,1,Placebo
+Harrison SA 2019,Resmetirom,-7.4,16.88756939,79,1,1,THR-beta agonist
+Harrison SA 2019,Placebo,3.6,17.4859944,39,1,1,Placebo
+Harrison SA 2023c,Resmetirom,-3.511735941,23.42616601,409,1,1,THR-beta agonist
+Harrison SA 2023c,Placebo,1.1,23.73099239,156,1,1,Placebo
+Harrison SA 2024a,Resmetirom,-14.84820416,27.63809339,529,1,1,THR-beta agonist
+Harrison SA 2024a,Placebo,-6,26.5548489,244,1,1,Placebo
+Loomba R 2023d,Semaglutide,-16,21.23181575,47,1,1,Incretins
+Loomba R 2023d,Placebo,1.5,23.87236896,24,1,1,Placebo
+Loomba R 2024b,Denifanstat,-16.1,20.53531816,80,1,1,DNL
+Loomba R 2024b,Placebo,-10,20.0737914,43,1,1,Placebo
+Harrison SA 2023d,Efruxifermin,-9.6,7.157899317,20,2,1,FGF21 analog
+Harrison SA 2023d,Placebo,-4.5,6.360461417,10,2,1,Placebo
+Rinella ME 2024,Aldafermin,-12.0814433,16.73752228,97,1,1,FGF19 analog
+Rinella ME 2024,Placebo,-2.4,15.71496102,56,1,1,Placebo
+Loomba R 2021b,Cilofexor,-4,10.77,40,1,1,FXR agonist
+Loomba R 2021b,Firsocostat,-12,10.77,40,1,1,DNL
+Loomba R 2021b,Placebo,-4,10.01,39,1,1,Placebo
+Ratziu V 2022,EDP-305,-9.383333333,21.58603953,108,1,1,FXR agonist
+Ratziu V 2022,Placebo,-9.5,21.06561179,24,1,1,Placebo
+Sanyal A 2023,Tropifexor,-14.98316832,21.75123716,101,1,1,FXR agonist
+Sanyal A 2023,Placebo,-13.1,29,51,1,1,Placebo
+Siddiqui MS 2021,Saroglitazar,-13.53923077,9.43316619,13,3,1,PPAR agonist
+Siddiqui MS 2021,Placebo,-19.33,47.44,3,3,1,Placebo
+Yoneda M 2021,Pioglitazone,-27.9,12.22,17,2,1,TZDs
+Yoneda M 2021,Tofogliflozin,-15.8,22.19,21,2,1,SGLT2 inhibitor
+NCT05254626,Pioglitazone,-0.795909091,21.55179465,44,1,1,TZDs
+NCT05254626,Dapagliflozin,-12.22782609,27.25986027,46,1,1,SGLT2 inhibitor
+Bril F 2019,Vitamin E,-15,20,33,1,1,Vitamin E
+Bril F 2019,Vitamin E + Pioglitazone,-10,10,29,1,1,TZDs + Vitamin E
+Bril F 2019,Placebo,-8,28,24,1,1,Placebo
+NCT00227110,Pioglitazone,-19,13,26,1,1,TZDs
+NCT00227110,Placebo,-9,14,21,1,1,Placebo
+Cheung KS 2024,Empagliflozin,-3.33,6.87,49,1,1,SGLT2 inhibitor
+Cheung KS 2024,Placebo,-1,3.82,49,1,1,Placebo
+Alkhouri N 2024,Vitamin E,-6.4,25.1,54,1,1,Vitamin E
+Alkhouri N 2024,Placebo,-2.8,22.5,125,1,1,Placebo
+Song Y 2025,Vitamin E,-4.1,18.6,58,1,1,Vitamin E
+Song Y 2025,Placebo,-3.4,17.7,64,1,1,Placebo
+Lin J 2025,Dapagliflozin,-8.35,13.59411792,78,1,1,SGLT2 inhibitor
+Lin J 2025,Placebo,-4.44,13.87249105,76,1,1,Placebo
