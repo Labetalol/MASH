@@ -1,0 +1,45 @@
+Number of studies: k = 31
+Number of pairwise comparisons: m = 35
+Number of treatments: n = 22
+Number of designs: d = 20
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
+                             OR             95%-CI     z p-value              95%-PI
+Aldafermin               1.7304 [0.9136;   3.2773]  1.68  0.0924  [0.7302;   4.1003]
+Cilofexor                0.9722 [0.2112;   4.4762] -0.04  0.9712  [0.1661;   5.6893]
+Dapagliflozin            3.3101 [1.4232;   7.6988]  2.78  0.0054  [1.1484;   9.5409]
+Denifanstat              2.6154 [1.0039;   6.8135]  1.97  0.0491  [0.8103;   8.4419]
+Efruxifermin             2.1856 [1.1204;   4.2633]  2.29  0.0218  [0.8976;   5.3215]
+Firsocostat              0.9722 [0.2112;   4.4762] -0.04  0.9712  [0.1661;   5.6893]
+Lanifibranor             1.7498 [0.8488;   3.6070]  1.52  0.1295  [0.6823;   4.4871]
+MSDC-0602K               1.3397 [0.6263;   2.8654]  0.75  0.4509  [0.5043;   3.5587]
+Obeticholic acid         1.6673 [1.1435;   2.4310]  2.66  0.0079  [0.8748;   3.1775]
+Pegbelfermin             1.1589 [0.5616;   2.3915]  0.40  0.6899  [0.4515;   2.9748]
+Pegozafermin             4.9948 [1.5464;  16.1331]  2.69  0.0072  [1.2410;  20.1032]
+Placebo                       .                  .     .       .                   .
+PXL065                   3.0536 [0.8651;  10.7780]  1.73  0.0828  [0.6915;  13.4842]
+Resmetirom               1.8263 [1.1073;   3.0121]  2.36  0.0183  [0.8702;   3.8328]
+Saroglitazar             6.0667 [0.2537; 145.0961]  1.11  0.2657  [0.1720; 213.9480]
+Seladelpar               1.6615 [0.5326;   5.1836]  0.87  0.3818  [0.4280;   6.4505]
+Semaglutide              1.4944 [0.9755;   2.2892]  1.85  0.0649  [0.7557;   2.9553]
+Survodutide              4.2969 [1.7464;  10.5722]  3.17  0.0015  [1.4098;  13.0959]
+Tirzepatide              2.7186 [1.1844;   6.2396]  2.36  0.0183  [0.9556;   7.7342]
+Tropifexor               1.2901 [0.4720;   3.5260]  0.50  0.6195  [0.3807;   4.3717]
+Vitamin E                2.1278 [1.0204;   4.4370]  2.01  0.0440  [0.8207;   5.5165]
+Vitamin E + Pioglitazone 2.1430 [0.8000;   5.7409]  1.52  0.1295  [0.6454;   7.1154]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0506; tau = 0.2249; I^2 = 25.5% [0.0%; 61.3%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           16.11   12  0.1862
+Within designs  15.96   11  0.1427
+Between designs  0.15    1  0.6961
+
+Details of network meta-analysis methods:
+- Frequentist graph-theoretical approach
+- DerSimonian-Laird estimator for tau^2
+- Calculation of I^2 based on Q
