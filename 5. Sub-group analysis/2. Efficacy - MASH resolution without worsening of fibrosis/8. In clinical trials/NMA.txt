@@ -1,0 +1,110 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                        treat1           treat2      TE   seTE seTE.adj narms multiarm
+Harrison SA 2021a FGF19 analog          Placebo  1.1499 0.8122   0.8517     2         
+Harrison SA 2022  FGF19 analog          Placebo  1.2349 0.7721   0.8136     2         
+Harrison SA 2021b FGF21 analog          Placebo -0.1001 1.4492   1.4717     2         
+Harrison SA 2023a FGF21 analog          Placebo  1.8898 0.4907   0.5536     2         
+Loomba R 2023a    FGF21 analog          Placebo -0.2728 0.7106   0.7554     2         
+Loomba R 2023b    FGF21 analog          Placebo  3.0059 1.0282   1.0596     2         
+Sanyal A 2023      FXR agonist          Placebo  1.7054 1.5034   1.5251     2         
+Francque SM 2021       Placebo     PPAR agonist -1.0106 0.3096   0.4019     2         
+Ratziu V 2016          Placebo     PPAR agonist -0.3334 0.3798   0.4582     2         
+Siddiqui MS 2021       Placebo     PPAR agonist -2.0890 1.6040   1.6244     2         
+Harrison SA 2020a      Placebo             TZDs -0.3538 0.3224   0.4118     2         
+Harrison SA 2023b      Placebo             TZDs -0.1981 0.5189   0.5787     2         
+Harrison SA 2019       Placebo THR-beta agonist -0.5317 0.5587   0.6147     2         
+Harrison SA 2024a      Placebo THR-beta agonist -1.2782 0.2087   0.3305     2         
+Sanyal A 2024a       Incretins          Placebo  2.0828 0.3980   0.4734     2         
+Loomba R 2024b             DNL          Placebo  0.9854 0.4559   0.5230     2         
+Noureddin M 2025  FGF21 analog          Placebo  1.4733 0.4198   0.4919     2         
+Harrison SA 2023d FGF21 analog          Placebo  1.3994 1.6040   1.6243     2         
+Loomba R 2021b             DNL      FXR agonist  0.4180 1.3103   1.4681     3        *
+Loomba R 2021b     FXR agonist          Placebo  0.6806 1.7465   2.4738     3        *
+Loomba R 2021b             DNL          Placebo  1.0986 1.6484   2.0477     3        *
+Harrison SA 2020b      Placebo     PPAR agonist -1.0282 0.7701   0.8116     2         
+NCT02704403            Placebo     PPAR agonist -0.3218 0.1776   0.3118     2         
+
+Number of treatment arms (by study):
+                  narms
+Harrison SA 2021a     2
+Harrison SA 2022      2
+Harrison SA 2021b     2
+Harrison SA 2023a     2
+Loomba R 2023a        2
+Loomba R 2023b        2
+Sanyal A 2023         2
+Francque SM 2021      2
+Ratziu V 2016         2
+Siddiqui MS 2021      2
+Harrison SA 2020a     2
+Harrison SA 2023b     2
+Harrison SA 2019      2
+Harrison SA 2024a     2
+Sanyal A 2024a        2
+Loomba R 2024b        2
+Noureddin M 2025      2
+Harrison SA 2023d     2
+Loomba R 2021b        3
+Harrison SA 2020b     2
+NCT02704403           2
+
+Results (random effects model):
+
+                        treat1           treat2     OR            95%-CI
+Harrison SA 2021a FGF19 analog          Placebo 3.3015 [1.0422; 10.4581]
+Harrison SA 2022  FGF19 analog          Placebo 3.3015 [1.0422; 10.4581]
+Harrison SA 2021b FGF21 analog          Placebo 3.9475 [2.1790;  7.1513]
+Harrison SA 2023a FGF21 analog          Placebo 3.9475 [2.1790;  7.1513]
+Loomba R 2023a    FGF21 analog          Placebo 3.9475 [2.1790;  7.1513]
+Loomba R 2023b    FGF21 analog          Placebo 3.9475 [2.1790;  7.1513]
+Sanyal A 2023      FXR agonist          Placebo 2.9271 [0.4155; 20.6195]
+Francque SM 2021       Placebo     PPAR agonist 0.5578 [0.3711;  0.8384]
+Ratziu V 2016          Placebo     PPAR agonist 0.5578 [0.3711;  0.8384]
+Siddiqui MS 2021       Placebo     PPAR agonist 0.5578 [0.3711;  0.8384]
+Harrison SA 2020a      Placebo             TZDs 0.7397 [0.3832;  1.4279]
+Harrison SA 2023b      Placebo             TZDs 0.7397 [0.3832;  1.4279]
+Harrison SA 2019       Placebo THR-beta agonist 0.3293 [0.1861;  0.5825]
+Harrison SA 2024a      Placebo THR-beta agonist 0.3293 [0.1861;  0.5825]
+Sanyal A 2024a       Incretins          Placebo 8.0270 [3.1740; 20.3000]
+Loomba R 2024b             DNL          Placebo 2.8450 [1.0876;  7.4420]
+Noureddin M 2025  FGF21 analog          Placebo 3.9475 [2.1790;  7.1513]
+Harrison SA 2023d FGF21 analog          Placebo 3.9475 [2.1790;  7.1513]
+Loomba R 2021b             DNL      FXR agonist 0.9720 [0.1341;  7.0464]
+Loomba R 2021b     FXR agonist          Placebo 2.9271 [0.4155; 20.6195]
+Loomba R 2021b             DNL          Placebo 2.8450 [1.0876;  7.4420]
+Harrison SA 2020b      Placebo     PPAR agonist 0.5578 [0.3711;  0.8384]
+NCT02704403            Placebo     PPAR agonist 0.5578 [0.3711;  0.8384]
+
+Number of studies: k = 21
+Number of pairwise comparisons: m = 23
+Number of treatments: n = 9
+Number of designs: d = 9
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
+                     OR            95%-CI    z  p-value             95%-PI
+DNL              2.8450 [1.0876;  7.4420] 2.13   0.0331  [0.8680;  9.3252]
+FGF19 analog     3.3015 [1.0422; 10.4581] 2.03   0.0423  [0.8337; 13.0739]
+FGF21 analog     3.9475 [2.1790;  7.1513] 4.53 < 0.0001  [1.6849;  9.2488]
+FXR agonist      2.9271 [0.4155; 20.6195] 1.08   0.2809  [0.3224; 26.5730]
+Incretins        8.0270 [3.1740; 20.3000] 4.40 < 0.0001  [2.5302; 25.4657]
+Placebo               .                 .    .        .                  .
+PPAR agonist     1.7928 [1.1928;  2.6945] 2.81   0.0050  [0.8834;  3.6382]
+THR-beta agonist 3.0369 [1.7166;  5.3727] 3.82   0.0001  [1.3219;  6.9769]
+TZDs             1.3518 [0.7003;  2.6094] 0.90   0.3690  [0.5466;  3.3435]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0657; tau = 0.2563; I^2 = 19.5% [0.0%; 56.1%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           17.40   14  0.2354
+Within designs  17.09   12  0.1464
+Between designs  0.32    2  0.8539
+
+Details of network meta-analysis methods:
+- Frequentist graph-theoretical approach
+- DerSimonian-Laird estimator for tau^2
+- Calculation of I^2 based on Q
