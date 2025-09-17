@@ -1,0 +1,58 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                         treat1      treat2     TE   seTE seTE.adj narms multiarm
+Loomba R 2023d        Incretins     Placebo 0.6736 0.5894   0.5894     2         
+Noureddin M 2025   FGF21 analog     Placebo 1.4733 0.4198   0.4198     2         
+Abdelmalek MF 2024 FGF21 analog     Placebo 1.1595 1.5022   1.5022     2         
+Harrison SA 2023d  FGF21 analog     Placebo 1.3994 1.6040   1.6040     2         
+Loomba R 2021b              DNL FXR agonist 0.3795 1.3306   1.4628     3        *
+Loomba R 2021b      FXR agonist     Placebo 0.8168 1.7604   2.4698     3        *
+Loomba R 2021b              DNL     Placebo 1.1963 1.6627   2.0397     3        *
+
+Number of treatment arms (by study):
+                   narms
+Loomba R 2023d         2
+Noureddin M 2025       2
+Abdelmalek MF 2024     2
+Harrison SA 2023d      2
+Loomba R 2021b         3
+
+Results (random effects model):
+
+                         treat1      treat2     OR            95%-CI
+Loomba R 2023d        Incretins     Placebo 1.9613 [0.6178;  6.2264]
+Noureddin M 2025   FGF21 analog     Placebo 4.2525 [1.9720;  9.1702]
+Abdelmalek MF 2024 FGF21 analog     Placebo 4.2525 [1.9720;  9.1702]
+Harrison SA 2023d  FGF21 analog     Placebo 4.2525 [1.9720;  9.1702]
+Loomba R 2021b              DNL FXR agonist 1.4615 [0.1077; 19.8356]
+Loomba R 2021b      FXR agonist     Placebo 2.2632 [0.0718; 71.3186]
+Loomba R 2021b              DNL     Placebo 3.3077 [0.1271; 86.0577]
+
+Number of studies: k = 5
+Number of pairwise comparisons: m = 7
+Number of treatments: n = 5
+Number of designs: d = 3
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
+                 OR            95%-CI    z p-value               95%-PI
+DNL          3.3077 [0.1271; 86.0577] 0.72  0.4718  [0.0026; 4230.7218]
+FGF21 analog 4.2525 [1.9720;  9.1702] 3.69  0.0002  [0.7871;   22.9762]
+FXR agonist  2.2632 [0.0718; 71.3186] 0.46  0.6427  [0.0012; 4408.6158]
+Incretins    1.9613 [0.6178;  6.2264] 1.14  0.2531  [0.1553;   24.7686]
+Placebo           .                 .    .       .                    .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 89.6%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           0.04    2  0.9795
+Within designs  0.04    2  0.9795
+Between designs 0.00    0      --
+
+Details of network meta-analysis methods:
+- Frequentist graph-theoretical approach
+- DerSimonian-Laird estimator for tau^2
+- Calculation of I^2 based on Q
