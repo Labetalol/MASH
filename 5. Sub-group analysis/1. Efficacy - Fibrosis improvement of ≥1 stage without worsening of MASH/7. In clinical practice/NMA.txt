@@ -1,0 +1,74 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                     treat1           treat2      TE   seTE seTE.adj narms multiarm
+Neuschwander-Tetri BA 2015      FXR agonist          Placebo  0.8189 0.3290   0.4722     2         
+Younossi ZM; Ratziu V 2019      FXR agonist          Placebo  0.6360 0.2016   0.3942     2         
+Newsome PN 2021                   Incretins          Placebo  0.3667 0.3198   0.4659     2         
+Bril F 2019                         Placebo        Vitamin E -0.8997 0.5069   0.7606     3        *
+Bril F 2019                TZDs + Vitamin E        Vitamin E -0.0572 0.4687   0.6872     3        *
+Bril F 2019                         Placebo TZDs + Vitamin E -0.8425 0.5036   0.7532     3        *
+Loomba R 2023d                    Incretins          Placebo -1.2409 0.6523   0.7350     2         
+Loomba R 2024a                    Incretins          Placebo  1.0001 0.3593   0.4938     2         
+Ratziu V 2023b                  FXR agonist          Placebo  0.1723 0.2279   0.4083     2         
+Song Y 2025                         Placebo        Vitamin E -0.6332 0.4566   0.5685     2         
+Sanyal A 2025                     Incretins          Placebo  0.6967 0.1719   0.3799     2         
+Lin J 2025                          Placebo  SGLT2 inhibitor -1.1970 0.3673   0.4997     2         
+
+Number of treatment arms (by study):
+                           narms
+Neuschwander-Tetri BA 2015     2
+Younossi ZM; Ratziu V 2019     2
+Newsome PN 2021                2
+Bril F 2019                    3
+Loomba R 2023d                 2
+Loomba R 2024a                 2
+Ratziu V 2023b                 2
+Song Y 2025                    2
+Sanyal A 2025                  2
+Lin J 2025                     2
+
+Results (random effects model):
+
+                                     treat1           treat2     OR           95%-CI
+Neuschwander-Tetri BA 2015      FXR agonist          Placebo 1.6821 [1.0445; 2.7090]
+Younossi ZM; Ratziu V 2019      FXR agonist          Placebo 1.6821 [1.0445; 2.7090]
+Newsome PN 2021                   Incretins          Placebo 1.6093 [1.0071; 2.5714]
+Bril F 2019                         Placebo        Vitamin E 0.4690 [0.2076; 1.0595]
+Bril F 2019                TZDs + Vitamin E        Vitamin E 1.0076 [0.3485; 2.9131]
+Bril F 2019                         Placebo TZDs + Vitamin E 0.4654 [0.1565; 1.3842]
+Loomba R 2023d                    Incretins          Placebo 1.6093 [1.0071; 2.5714]
+Loomba R 2024a                    Incretins          Placebo 1.6093 [1.0071; 2.5714]
+Ratziu V 2023b                  FXR agonist          Placebo 1.6821 [1.0445; 2.7090]
+Song Y 2025                         Placebo        Vitamin E 0.4690 [0.2076; 1.0595]
+Sanyal A 2025                     Incretins          Placebo 1.6093 [1.0071; 2.5714]
+Lin J 2025                          Placebo  SGLT2 inhibitor 0.3021 [0.1135; 0.8044]
+
+Number of studies: k = 10
+Number of pairwise comparisons: m = 12
+Number of treatments: n = 6
+Number of designs: d = 5
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
+                     OR           95%-CI    z p-value             95%-PI
+FXR agonist      1.6821 [1.0445; 2.7090] 2.14  0.0324  [0.6064;  4.6664]
+Incretins        1.6093 [1.0071; 2.5714] 1.99  0.0466  [0.5834;  4.4391]
+Placebo               .                .    .       .                  .
+SGLT2 inhibitor  3.3101 [1.2432; 8.8135] 2.40  0.0166  [0.7556; 14.4996]
+TZDs + Vitamin E 2.1485 [0.7225; 6.3892] 1.38  0.1690  [0.4367; 10.5700]
+Vitamin E        2.1322 [0.9439; 4.8168] 1.82  0.0686  [0.5740;  7.9211]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.1148; tau = 0.3388; I^2 = 56.1% [0.0%; 81.1%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           13.67    6  0.0336
+Within designs  13.51    5  0.0190
+Between designs  0.15    1  0.6961
+
+Details of network meta-analysis methods:
+- Frequentist graph-theoretical approach
+- DerSimonian-Laird estimator for tau^2
+- Calculation of I^2 based on Q
