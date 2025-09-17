@@ -1,0 +1,88 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                     treat1           treat2      TE   seTE seTE.adj narms multiarm
+Neuschwander-Tetri BA 2015      FXR agonist          Placebo  0.5867 0.3829   0.4546     2         
+Younossi ZM; Ratziu V 2019      FXR agonist          Placebo  0.3917 0.2437   0.3455     2         
+Armstrong MJ 2016                 Incretins          Placebo  1.8608 0.8559   0.8902     2         
+Newsome PN 2021                   Incretins          Placebo  1.3585 0.3799   0.4520     2         
+Cusi K 2016                         Placebo             TZDs -1.4910 0.4522   0.5143     2         
+Huang, Jee-Fu 2021                  Placebo             TZDs -1.0678 0.6721   0.7153     2         
+Bril F 2019                         Placebo        Vitamin E -1.2344 0.5949   0.8345     3        *
+Bril F 2019                TZDs + Vitamin E        Vitamin E  0.6145 0.4751   0.6017     3        *
+Bril F 2019                         Placebo TZDs + Vitamin E -1.8489 0.5881   0.8113     3        *
+Loomba R 2024a                    Incretins          Placebo  2.3212 0.5016   0.5582     2         
+Song Y 2025                         Placebo        Vitamin E  0.4135 0.5218   0.5764     2         
+Sanyal A 2025                     Incretins          Placebo  1.1828 0.1573   0.2911     2         
+Sanyal A 2010                       Placebo             TZDs -1.2206 0.3762   0.5658     3        *
+Sanyal A 2010                          TZDs        Vitamin E  0.4501 0.3338   0.4855     3        *
+Sanyal A 2010                       Placebo        Vitamin E -0.7705 0.3719   0.5552     3        *
+Loomba R 2023d                    Incretins          Placebo  0.6736 0.5894   0.6383     2         
+Lin J 2025                          Placebo  SGLT2 inhibitor -1.2528 0.5032   0.5596     2         
+
+Number of treatment arms (by study):
+                           narms
+Neuschwander-Tetri BA 2015     2
+Younossi ZM; Ratziu V 2019     2
+Armstrong MJ 2016              2
+Newsome PN 2021                2
+Cusi K 2016                    2
+Huang, Jee-Fu 2021             2
+Bril F 2019                    3
+Loomba R 2024a                 2
+Song Y 2025                    2
+Sanyal A 2025                  2
+Sanyal A 2010                  3
+Loomba R 2023d                 2
+Lin J 2025                     2
+
+Results (random effects model):
+
+                                     treat1           treat2     OR           95%-CI
+Neuschwander-Tetri BA 2015      FXR agonist          Placebo 1.5890 [0.9268; 2.7244]
+Younossi ZM; Ratziu V 2019      FXR agonist          Placebo 1.5890 [0.9268; 2.7244]
+Armstrong MJ 2016                 Incretins          Placebo 3.8850 [2.5958; 5.8147]
+Newsome PN 2021                   Incretins          Placebo 3.8850 [2.5958; 5.8147]
+Cusi K 2016                         Placebo             TZDs 0.2970 [0.1675; 0.5267]
+Huang, Jee-Fu 2021                  Placebo             TZDs 0.2970 [0.1675; 0.5267]
+Bril F 2019                         Placebo        Vitamin E 0.5604 [0.3147; 0.9979]
+Bril F 2019                TZDs + Vitamin E        Vitamin E 2.3328 [0.8851; 6.1482]
+Bril F 2019                         Placebo TZDs + Vitamin E 0.2402 [0.0868; 0.6647]
+Loomba R 2024a                    Incretins          Placebo 3.8850 [2.5958; 5.8147]
+Song Y 2025                         Placebo        Vitamin E 0.5604 [0.3147; 0.9979]
+Sanyal A 2025                     Incretins          Placebo 3.8850 [2.5958; 5.8147]
+Sanyal A 2010                       Placebo             TZDs 0.2970 [0.1675; 0.5267]
+Sanyal A 2010                          TZDs        Vitamin E 1.8866 [0.9679; 3.6773]
+Sanyal A 2010                       Placebo        Vitamin E 0.5604 [0.3147; 0.9979]
+Loomba R 2023d                    Incretins          Placebo 3.8850 [2.5958; 5.8147]
+Lin J 2025                          Placebo  SGLT2 inhibitor 0.2857 [0.0954; 0.8556]
+
+Number of studies: k = 13
+Number of pairwise comparisons: m = 17
+Number of treatments: n = 7
+Number of designs: d = 7
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
+                     OR            95%-CI    z  p-value             95%-PI
+FXR agonist      1.5890 [0.9268;  2.7244] 1.68   0.0923  [0.6907;  3.6557]
+Incretins        3.8850 [2.5958;  5.8147] 6.60 < 0.0001  [1.8843;  8.0103]
+Placebo               .                 .    .        .                  .
+SGLT2 inhibitor  3.5000 [1.1688; 10.4811] 2.24   0.0252  [0.8789; 13.9380]
+TZDs             3.3665 [1.8985;  5.9696] 4.15 < 0.0001  [1.4209;  7.9762]
+TZDs + Vitamin E 4.1626 [1.5044; 11.5177] 2.75   0.0060  [1.1358; 15.2550]
+Vitamin E        1.7844 [1.0021;  3.1774] 1.97   0.0492  [0.7504;  4.2434]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0600; tau = 0.2449; I^2 = 25.5% [0.0%; 64.0%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           12.08    9  0.2086
+Within designs   6.71    6  0.3486
+Between designs  5.37    3  0.1463
+
+Details of network meta-analysis methods:
+- Frequentist graph-theoretical approach
+- DerSimonian-Laird estimator for tau^2
+- Calculation of I^2 based on Q
