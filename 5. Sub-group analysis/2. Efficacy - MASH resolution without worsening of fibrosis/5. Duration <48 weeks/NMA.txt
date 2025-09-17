@@ -1,0 +1,73 @@
+Original data:
+
+                         treat1           treat2      TE   seTE
+Harrison SA 2021a  FGF19 analog          Placebo  1.1499 0.8122
+Harrison SA 2022   FGF19 analog          Placebo  1.2349 0.7721
+Harrison SA 2023a  FGF21 analog          Placebo  1.8898 0.4907
+Loomba R 2023a     FGF21 analog          Placebo -0.2728 0.7106
+Loomba R 2023b     FGF21 analog          Placebo  3.0059 1.0282
+Francque SM 2021        Placebo     PPAR agonist -1.0106 0.3096
+Siddiqui MS 2021        Placebo     PPAR agonist -2.0890 1.6040
+Harrison SA 2023b       Placebo             TZDs -0.1981 0.5189
+Huang, Jee-Fu 2021      Placebo             TZDs -1.0678 0.6721
+Harrison SA 2019        Placebo THR-beta agonist -0.5317 0.5587
+Noureddin M 2025   FGF21 analog          Placebo  1.4733 0.4198
+
+Number of treatment arms (by study):
+                   narms
+Harrison SA 2021a      2
+Harrison SA 2022       2
+Harrison SA 2023a      2
+Loomba R 2023a         2
+Loomba R 2023b         2
+Francque SM 2021       2
+Siddiqui MS 2021       2
+Harrison SA 2023b      2
+Huang, Jee-Fu 2021     2
+Harrison SA 2019       2
+Noureddin M 2025       2
+
+Results (random effects model):
+
+                         treat1           treat2     OR            95%-CI
+Harrison SA 2021a  FGF19 analog          Placebo 3.2997 [0.8518; 12.7820]
+Harrison SA 2022   FGF19 analog          Placebo 3.2997 [0.8518; 12.7820]
+Harrison SA 2023a  FGF21 analog          Placebo 4.1696 [1.8300;  9.5005]
+Loomba R 2023a     FGF21 analog          Placebo 4.1696 [1.8300;  9.5005]
+Loomba R 2023b     FGF21 analog          Placebo 4.1696 [1.8300;  9.5005]
+Francque SM 2021        Placebo     PPAR agonist 0.3172 [0.0963;  1.0447]
+Siddiqui MS 2021        Placebo     PPAR agonist 0.3172 [0.0963;  1.0447]
+Harrison SA 2023b       Placebo             TZDs 0.5625 [0.1800;  1.7584]
+Huang, Jee-Fu 2021      Placebo             TZDs 0.5625 [0.1800;  1.7584]
+Harrison SA 2019        Placebo THR-beta agonist 0.5876 [0.1225;  2.8190]
+Noureddin M 2025   FGF21 analog          Placebo 4.1696 [1.8300;  9.5005]
+
+Number of studies: k = 11
+Number of pairwise comparisons: m = 11
+Number of treatments: n = 6
+Number of designs: d = 5
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
+                     OR            95%-CI    z p-value             95%-PI
+FGF19 analog     3.2997 [0.8518; 12.7820] 1.73  0.0840  [0.3672; 29.6552]
+FGF21 analog     4.1696 [1.8300;  9.5005] 3.40  0.0007  [0.7334; 23.7058]
+Placebo               .                 .    .       .                  .
+PPAR agonist     3.1521 [0.9572; 10.3802] 1.89  0.0590  [0.4083; 24.3344]
+THR-beta agonist 1.7018 [0.3547;  8.1644] 0.66  0.5063  [0.1532; 18.8995]
+TZDs             1.7777 [0.5687;  5.5569] 0.99  0.3225  [0.2413; 13.0956]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.3279; tau = 0.5726; I^2 = 42.7% [0.0%; 75.9%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           10.46    6  0.1064
+Within designs  10.46    6  0.1064
+Between designs  0.00    0      --
+
+Details of network meta-analysis methods:
+- Frequentist graph-theoretical approach
+- DerSimonian-Laird estimator for tau^2
+- Calculation of I^2 based on Q
