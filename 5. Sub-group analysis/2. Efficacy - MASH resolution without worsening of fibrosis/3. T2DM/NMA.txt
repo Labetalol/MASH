@@ -1,0 +1,74 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                     treat1           treat2      TE   seTE seTE.adj narms multiarm
+Loomba R 2023b                 FGF21 analog          Placebo  3.3006 1.4538   1.4538     2         
+Younossi ZM; Ratziu V 2019      FXR agonist          Placebo  0.2122 0.5406   0.5406     2         
+Armstrong MJ 2016                 Incretins          Placebo  1.9459 1.6277   1.6277     2         
+Newsome PN 2021                   Incretins          Placebo  1.3143 0.4033   0.4033     2         
+Francque SM 2021                    Placebo     PPAR agonist -1.0296 0.4892   0.4892     2         
+Bril F 2019                         Placebo        Vitamin E -1.2344 0.5949   0.7801     3        *
+Bril F 2019                TZDs + Vitamin E        Vitamin E  0.6145 0.4751   0.5286     3        *
+Bril F 2019                         Placebo TZDs + Vitamin E -1.8489 0.5881   0.7527     3        *
+Sanyal A 2025                     Incretins          Placebo  0.9968 0.2072   0.2072     2         
+Lin J 2025                          Placebo  SGLT2 inhibitor -0.8267 0.7530   0.7530     2         
+Harrison SA 2024a                   Placebo THR-beta agonist -1.1911 0.2452   0.2452     2         
+
+Number of treatment arms (by study):
+                           narms
+Loomba R 2023b                 2
+Younossi ZM; Ratziu V 2019     2
+Armstrong MJ 2016              2
+Newsome PN 2021                2
+Francque SM 2021               2
+Bril F 2019                    3
+Sanyal A 2025                  2
+Lin J 2025                     2
+Harrison SA 2024a              2
+
+Results (random effects model):
+
+                                     treat1           treat2      OR             95%-CI
+Loomba R 2023b                 FGF21 analog          Placebo 27.1290 [1.5703; 468.6937]
+Younossi ZM; Ratziu V 2019      FXR agonist          Placebo  1.2364 [0.4285;   3.5670]
+Armstrong MJ 2016                 Incretins          Placebo  2.9279 [2.0450;   4.1920]
+Newsome PN 2021                   Incretins          Placebo  2.9279 [2.0450;   4.1920]
+Francque SM 2021                    Placebo     PPAR agonist  0.3571 [0.1369;   0.9316]
+Bril F 2019                         Placebo        Vitamin E  0.2910 [0.0907;   0.9339]
+Bril F 2019                TZDs + Vitamin E        Vitamin E  1.8487 [0.7286;   4.6910]
+Bril F 2019                         Placebo TZDs + Vitamin E  0.1574 [0.0497;   0.4984]
+Sanyal A 2025                     Incretins          Placebo  2.9279 [2.0450;   4.1920]
+Lin J 2025                          Placebo  SGLT2 inhibitor  0.4375 [0.1000;   1.9138]
+Harrison SA 2024a                   Placebo THR-beta agonist  0.3039 [0.1879;   0.4913]
+
+Number of studies: k = 9
+Number of pairwise comparisons: m = 11
+Number of treatments: n = 9
+Number of designs: d = 7
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
+                      OR             95%-CI    z  p-value                95%-PI
+FGF21 analog     27.1290 [1.5703; 468.6937] 2.27   0.0232  [0.0521; 14124.8360]
+FXR agonist       1.2364 [0.4285;   3.5670] 0.39   0.6947  [0.1208;    12.6566]
+Incretins         2.9279 [2.0450;   4.1920] 5.87 < 0.0001  [1.3317;     6.4375]
+Placebo                .                  .    .        .                     .
+PPAR agonist      2.8000 [1.0734;   7.3036] 2.10   0.0353  [0.3413;    22.9735]
+SGLT2 inhibitor   2.2857 [0.5225;   9.9989] 1.10   0.2723  [0.0895;    58.3494]
+THR-beta agonist  3.2908 [2.0352;   5.3210] 4.86 < 0.0001  [1.1460;     9.4500]
+TZDs + Vitamin E  6.3529 [2.0062;  20.1171] 3.14   0.0017  [0.5059;    79.7825]
+Vitamin E         3.4364 [1.0708;  11.0278] 2.07   0.0380  [0.2657;    44.4388]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 89.6%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           0.78    2  0.6768
+Within designs  0.78    2  0.6768
+Between designs 0.00    0      --
+
+Details of network meta-analysis methods:
+- Frequentist graph-theoretical approach
+- DerSimonian-Laird estimator for tau^2
+- Calculation of I^2 based on Q
