@@ -1,0 +1,268 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                                   treat1                         treat2      TE   seTE seTE.adj narms
+Harrison SA 2018                             FGF19 analog                        Placebo  1.9772 1.4867   1.4867     2
+Harrison SA 2021a                            FGF19 analog                        Placebo -1.8796 1.6511   1.6511     2
+Harrison SA 2022                             FGF19 analog                        Placebo  0.1307 0.6833   0.6833     2
+Harrison SA 2021b                            FGF21 analog                        Placebo  0.8362 1.1117   1.1117     2
+Harrison SA 2023a                            FGF21 analog                        Placebo  2.5200 1.4601   1.4601     2
+Loomba R 2023a                               FGF21 analog                        Placebo -0.8535 0.7823   0.7823     2
+Loomba R 2023b                               FGF21 analog                        Placebo  1.3431 1.0709   1.0709     2
+Loomba R 2023c                               FGF21 analog                        Placebo  0.4082 1.5717   1.5717     2
+Sanyal A 2019                                FGF21 analog                        Placebo  0.0785 1.7488   1.7488     2
+Patel K 2020                                  FXR agonist                        Placebo -0.3067 0.8453   0.8453     2
+Ratziu V 2023a                                FXR agonist                        Placebo  2.7393 1.4594   1.4594     2
+NCT00227110                                       Placebo                           TZDs  0.6931 0.9647   0.9647     2
+Sanyal A 2023                                 FXR agonist                        Placebo  1.3718 0.7767   0.7767     2
+Younossi ZM; Ratziu V 2019                    FXR agonist                        Placebo  0.4782 0.1281   0.1281     2
+Armstrong MJ 2016                               Incretins                        Placebo  0.7340 1.2576   1.2576     2
+Newsome PN 2021                                 Incretins                        Placebo  0.3750 0.5714   0.5714     2
+Francque SM 2021                                  Placebo                   PPAR agonist -0.1351 0.7038   0.7038     2
+Gawrieh S 2021                                    Placebo                   PPAR agonist -0.9717 1.5278   1.5278     2
+Ratziu V 2016                                     Placebo                   PPAR agonist -0.0117 0.5172   0.5172     2
+Aithal GP 2008                                    Placebo                           TZDs  0.1869 0.6125   0.6125     2
+Cusi K 2016                                       Placebo                           TZDs  1.0986 1.6451   1.6451     2
+Harrison SA 2020a                                 Placebo                           TZDs  0.7715 0.6567   0.6567     2
+Harrison SA 2023b                                 Placebo                           TZDs  1.0871 1.4304   1.4304     2
+Huang, Jee-Fu 2021                                Placebo                           TZDs -0.8082 1.2434   1.2434     2
+Ratziu V 2008                                     Placebo                           TZDs -1.0986 1.6523   1.6523     2
+Harrison SA 2023c                                 Placebo               THR-beta agonist -0.6717 0.5518   0.5518     2
+Harrison SA 2024a                                 Placebo               THR-beta agonist -0.4499 0.3538   0.3538     2
+Harrison SA 2025a                               Incretins                        Placebo  0.5813 1.5670   1.5670     2
+Sanyal A 2024a                                  Incretins                        Placebo  2.2029 0.7364   0.7364     2
+Flint A 2021                                    Incretins                        Placebo  1.0986 1.6512   1.6512     2
+Shankar SS 2024                                 Incretins                        Placebo  0.9163 1.1248   1.1248     2
+Loomba R 2023d                                  Incretins                        Placebo  0.7932 0.6902   0.6902     2
+Loomba R 2024a                                  Incretins                        Placebo  0.0146 0.8341   0.8341     2
+Calle RA 2021                                         DNL                        Placebo  0.4902 0.6385   0.6385     2
+Loomba R 2024b                                        DNL                        Placebo  1.4629 0.6393   0.6393     2
+Loomba R 2018                                         DNL                        Placebo  0.2965 1.5646   1.5646     2
+Loomba R 2021a                                        DNL                        Placebo  0.8622 1.5642   1.5642     2
+Noureddin M 2025                             FGF21 analog                        Placebo  1.5829 0.7652   0.7652     2
+Abdelmalek MF 2024                           FGF21 analog                        Placebo  0.0343 1.6434   1.6434     2
+Harrison SA 2023d                            FGF21 analog                        Placebo  0.4796 1.6773   1.6773     2
+Rinella ME 2024                              FGF19 analog                        Placebo  2.0091 1.4771   1.4771     2
+Loomba R 2021b                                        DNL                    FXR agonist  0.7191 1.2458   1.4415     3
+Loomba R 2021b                                FXR agonist                        Placebo -0.0260 1.4325   2.0129     3
+Loomba R 2021b                                        DNL                        Placebo  0.6931 1.2460   1.4420     3
+Ratziu V 2022                                 FXR agonist                        Placebo  0.4090 0.7956   0.7956     2
+Harrison SA 2020b                                 Placebo                   PPAR agonist  0.5030 1.6474   1.6474     2
+Noureddin M 2024                              FXR agonist               THR-beta agonist -0.6109 1.5671   2.3780     4
+Noureddin M 2024           FXR agonist + THR-beta agonist               THR-beta agonist  0.4017 0.9152   1.0820     4
+Noureddin M 2024                                  Placebo               THR-beta agonist  0.5294 1.0603   1.4019     4
+Noureddin M 2024                              FXR agonist FXR agonist + THR-beta agonist -1.0126 1.5695   2.3992     4
+Noureddin M 2024                              FXR agonist                        Placebo -1.1403 1.6583   3.1086     4
+Noureddin M 2024           FXR agonist + THR-beta agonist                        Placebo -0.1277 1.0638   1.4144     4
+Cheung KS 2024                                    Placebo                SGLT2 inhibitor -0.6829 1.7439   1.7439     2
+Alkhouri N 2024                                   Placebo                      Vitamin E -0.7684 1.4303   1.4303     2
+Song Y 2025                                       Placebo                      Vitamin E -1.7419 1.5599   1.5599     2
+Sanyal A 2025                                   Incretins                        Placebo -0.2330 0.3584   0.3584     2
+Lin J 2025                                        Placebo                SGLT2 inhibitor  0.7329 1.2355   1.2355     2
+                           multiarm
+Harrison SA 2018                   
+Harrison SA 2021a                  
+Harrison SA 2022                   
+Harrison SA 2021b                  
+Harrison SA 2023a                  
+Loomba R 2023a                     
+Loomba R 2023b                     
+Loomba R 2023c                     
+Sanyal A 2019                      
+Patel K 2020                       
+Ratziu V 2023a                     
+NCT00227110                        
+Sanyal A 2023                      
+Younossi ZM; Ratziu V 2019         
+Armstrong MJ 2016                  
+Newsome PN 2021                    
+Francque SM 2021                   
+Gawrieh S 2021                     
+Ratziu V 2016                      
+Aithal GP 2008                     
+Cusi K 2016                        
+Harrison SA 2020a                  
+Harrison SA 2023b                  
+Huang, Jee-Fu 2021                 
+Ratziu V 2008                      
+Harrison SA 2023c                  
+Harrison SA 2024a                  
+Harrison SA 2025a                  
+Sanyal A 2024a                     
+Flint A 2021                       
+Shankar SS 2024                    
+Loomba R 2023d                     
+Loomba R 2024a                     
+Calle RA 2021                      
+Loomba R 2024b                     
+Loomba R 2018                      
+Loomba R 2021a                     
+Noureddin M 2025                   
+Abdelmalek MF 2024                 
+Harrison SA 2023d                  
+Rinella ME 2024                    
+Loomba R 2021b                    *
+Loomba R 2021b                    *
+Loomba R 2021b                    *
+Ratziu V 2022                      
+Harrison SA 2020b                  
+Noureddin M 2024                  *
+Noureddin M 2024                  *
+Noureddin M 2024                  *
+Noureddin M 2024                  *
+Noureddin M 2024                  *
+Noureddin M 2024                  *
+Cheung KS 2024                     
+Alkhouri N 2024                    
+Song Y 2025                        
+Sanyal A 2025                      
+Lin J 2025                         
+
+Number of treatment arms (by study):
+                           narms
+Harrison SA 2018               2
+Harrison SA 2021a              2
+Harrison SA 2022               2
+Harrison SA 2021b              2
+Harrison SA 2023a              2
+Loomba R 2023a                 2
+Loomba R 2023b                 2
+Loomba R 2023c                 2
+Sanyal A 2019                  2
+Patel K 2020                   2
+Ratziu V 2023a                 2
+NCT00227110                    2
+Sanyal A 2023                  2
+Younossi ZM; Ratziu V 2019     2
+Armstrong MJ 2016              2
+Newsome PN 2021                2
+Francque SM 2021               2
+Gawrieh S 2021                 2
+Ratziu V 2016                  2
+Aithal GP 2008                 2
+Cusi K 2016                    2
+Harrison SA 2020a              2
+Harrison SA 2023b              2
+Huang, Jee-Fu 2021             2
+Ratziu V 2008                  2
+Harrison SA 2023c              2
+Harrison SA 2024a              2
+Harrison SA 2025a              2
+Sanyal A 2024a                 2
+Flint A 2021                   2
+Shankar SS 2024                2
+Loomba R 2023d                 2
+Loomba R 2024a                 2
+Calle RA 2021                  2
+Loomba R 2024b                 2
+Loomba R 2018                  2
+Loomba R 2021a                 2
+Noureddin M 2025               2
+Abdelmalek MF 2024             2
+Harrison SA 2023d              2
+Rinella ME 2024                2
+Loomba R 2021b                 3
+Ratziu V 2022                  2
+Harrison SA 2020b              2
+Noureddin M 2024               4
+Cheung KS 2024                 2
+Alkhouri N 2024                2
+Song Y 2025                    2
+Sanyal A 2025                  2
+Lin J 2025                     2
+
+Results (random effects model):
+
+                                                   treat1                         treat2     OR           95%-CI
+Harrison SA 2018                             FGF19 analog                        Placebo 1.5085 [0.5227; 4.3537]
+Harrison SA 2021a                            FGF19 analog                        Placebo 1.5085 [0.5227; 4.3537]
+Harrison SA 2022                             FGF19 analog                        Placebo 1.5085 [0.5227; 4.3537]
+Harrison SA 2021b                            FGF21 analog                        Placebo 1.9703 [0.9368; 4.1439]
+Harrison SA 2023a                            FGF21 analog                        Placebo 1.9703 [0.9368; 4.1439]
+Loomba R 2023a                               FGF21 analog                        Placebo 1.9703 [0.9368; 4.1439]
+Loomba R 2023b                               FGF21 analog                        Placebo 1.9703 [0.9368; 4.1439]
+Loomba R 2023c                               FGF21 analog                        Placebo 1.9703 [0.9368; 4.1439]
+Sanyal A 2019                                FGF21 analog                        Placebo 1.9703 [0.9368; 4.1439]
+Patel K 2020                                  FXR agonist                        Placebo 1.6288 [1.2824; 2.0689]
+Ratziu V 2023a                                FXR agonist                        Placebo 1.6288 [1.2824; 2.0689]
+NCT00227110                                       Placebo                           TZDs 1.4680 [0.7319; 2.9442]
+Sanyal A 2023                                 FXR agonist                        Placebo 1.6288 [1.2824; 2.0689]
+Younossi ZM; Ratziu V 2019                    FXR agonist                        Placebo 1.6288 [1.2824; 2.0689]
+Armstrong MJ 2016                               Incretins                        Placebo 1.4550 [0.9217; 2.2971]
+Newsome PN 2021                                 Incretins                        Placebo 1.4550 [0.9217; 2.2971]
+Francque SM 2021                                  Placebo                   PPAR agonist 0.9199 [0.4278; 1.9779]
+Gawrieh S 2021                                    Placebo                   PPAR agonist 0.9199 [0.4278; 1.9779]
+Ratziu V 2016                                     Placebo                   PPAR agonist 0.9199 [0.4278; 1.9779]
+Aithal GP 2008                                    Placebo                           TZDs 1.4680 [0.7319; 2.9442]
+Cusi K 2016                                       Placebo                           TZDs 1.4680 [0.7319; 2.9442]
+Harrison SA 2020a                                 Placebo                           TZDs 1.4680 [0.7319; 2.9442]
+Harrison SA 2023b                                 Placebo                           TZDs 1.4680 [0.7319; 2.9442]
+Huang, Jee-Fu 2021                                Placebo                           TZDs 1.4680 [0.7319; 2.9442]
+Ratziu V 2008                                     Placebo                           TZDs 1.4680 [0.7319; 2.9442]
+Harrison SA 2023c                                 Placebo               THR-beta agonist 0.6308 [0.3610; 1.1021]
+Harrison SA 2024a                                 Placebo               THR-beta agonist 0.6308 [0.3610; 1.1021]
+Harrison SA 2025a                               Incretins                        Placebo 1.4550 [0.9217; 2.2971]
+Sanyal A 2024a                                  Incretins                        Placebo 1.4550 [0.9217; 2.2971]
+Flint A 2021                                    Incretins                        Placebo 1.4550 [0.9217; 2.2971]
+Shankar SS 2024                                 Incretins                        Placebo 1.4550 [0.9217; 2.2971]
+Loomba R 2023d                                  Incretins                        Placebo 1.4550 [0.9217; 2.2971]
+Loomba R 2024a                                  Incretins                        Placebo 1.4550 [0.9217; 2.2971]
+Calle RA 2021                                         DNL                        Placebo 2.5185 [1.1795; 5.3777]
+Loomba R 2024b                                        DNL                        Placebo 2.5185 [1.1795; 5.3777]
+Loomba R 2018                                         DNL                        Placebo 2.5185 [1.1795; 5.3777]
+Loomba R 2021a                                        DNL                        Placebo 2.5185 [1.1795; 5.3777]
+Noureddin M 2025                             FGF21 analog                        Placebo 1.9703 [0.9368; 4.1439]
+Abdelmalek MF 2024                           FGF21 analog                        Placebo 1.9703 [0.9368; 4.1439]
+Harrison SA 2023d                            FGF21 analog                        Placebo 1.9703 [0.9368; 4.1439]
+Rinella ME 2024                              FGF19 analog                        Placebo 1.5085 [0.5227; 4.3537]
+Loomba R 2021b                                        DNL                    FXR agonist 1.5462 [0.7016; 3.4075]
+Loomba R 2021b                                FXR agonist                        Placebo 1.6288 [1.2824; 2.0689]
+Loomba R 2021b                                        DNL                        Placebo 2.5185 [1.1795; 5.3777]
+Ratziu V 2022                                 FXR agonist                        Placebo 1.6288 [1.2824; 2.0689]
+Harrison SA 2020b                                 Placebo                   PPAR agonist 0.9199 [0.4278; 1.9779]
+Noureddin M 2024                              FXR agonist               THR-beta agonist 1.0274 [0.5610; 1.8815]
+Noureddin M 2024           FXR agonist + THR-beta agonist               THR-beta agonist 1.1621 [0.2335; 5.7840]
+Noureddin M 2024                                  Placebo               THR-beta agonist 0.6308 [0.3610; 1.1021]
+Noureddin M 2024                              FXR agonist FXR agonist + THR-beta agonist 0.8841 [0.1733; 4.5100]
+Noureddin M 2024                              FXR agonist                        Placebo 1.6288 [1.2824; 2.0689]
+Noureddin M 2024           FXR agonist + THR-beta agonist                        Placebo 1.8424 [0.3660; 9.2761]
+Cheung KS 2024                                    Placebo                SGLT2 inhibitor 1.2966 [0.1798; 9.3524]
+Alkhouri N 2024                                   Placebo                      Vitamin E 0.2973 [0.0377; 2.3472]
+Song Y 2025                                       Placebo                      Vitamin E 0.2973 [0.0377; 2.3472]
+Sanyal A 2025                                   Incretins                        Placebo 1.4550 [0.9217; 2.2971]
+Lin J 2025                                        Placebo                SGLT2 inhibitor 1.2966 [0.1798; 9.3524]
+
+Number of studies: k = 50
+Number of pairwise comparisons: m = 57
+Number of treatments: n = 12
+Number of designs: d = 12
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
+                                   OR            95%-CI     z  p-value             95%-PI
+DNL                            2.5185 [1.1795;  5.3777]  2.39   0.0170  [1.1532;  5.5000]
+FGF19 analog                   1.5085 [0.5227;  4.3537]  0.76   0.4471  [0.5065;  4.4927]
+FGF21 analog                   1.9703 [0.9368;  4.1439]  1.79   0.0738  [0.9164;  4.2362]
+FXR agonist                    1.6288 [1.2824;  2.0689]  4.00 < 0.0001  [1.2733;  2.0836]
+FXR agonist + THR-beta agonist 1.8424 [0.3660;  9.2761]  0.74   0.4587  [0.3488;  9.7315]
+Incretins                      1.4550 [0.9217;  2.2971]  1.61   0.1074  [0.9093;  2.3284]
+Placebo                             .                 .     .        .                  .
+PPAR agonist                   1.0871 [0.5056;  2.3376]  0.21   0.8307  [0.4942;  2.3912]
+SGLT2 inhibitor                0.7713 [0.1069;  5.5632] -0.26   0.7967  [0.1008;  5.8989]
+THR-beta agonist               1.5854 [0.9073;  2.7701]  1.62   0.1056  [0.8924;  2.8164]
+TZDs                           0.6812 [0.3396;  1.3663] -1.08   0.2797  [0.3327;  1.3948]
+Vitamin E                      3.3636 [0.4260; 26.5551]  1.15   0.2499  [0.4007; 28.2330]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 35.1%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           33.38   42  0.8265
+Within designs  31.90   38  0.7466
+Between designs  1.48    4  0.8304
+
+Details of network meta-analysis methods:
+- Frequentist graph-theoretical approach
+- DerSimonian-Laird estimator for tau^2
+- Calculation of I^2 based on Q
