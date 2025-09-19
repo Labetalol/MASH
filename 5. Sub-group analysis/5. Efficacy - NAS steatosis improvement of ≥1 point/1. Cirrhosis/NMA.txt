@@ -1,0 +1,51 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                         treat1      treat2      TE   seTE seTE.adj narms multiarm
+Loomba R 2023d        Incretins     Placebo  0.4796 0.5230   2.5385     2         
+Abdelmalek MF 2024 FGF21 analog     Placebo  0.4516 0.8047   2.6111     2         
+Loomba R 2021b              DNL FXR agonist  1.7077 0.8183   3.1730     3        *
+Loomba R 2021b      FXR agonist     Placebo -0.0267 1.0263   3.3563     3        *
+Loomba R 2021b              DNL     Placebo  1.6810 0.8188   3.1733     3        *
+
+Number of treatment arms (by study):
+                   narms
+Loomba R 2023d         2
+Abdelmalek MF 2024     2
+Loomba R 2021b         3
+
+Results (random effects model):
+
+                         treat1      treat2     OR             95%-CI
+Loomba R 2023d        Incretins     Placebo 1.6154 [0.0112; 233.9132]
+Abdelmalek MF 2024 FGF21 analog     Placebo 1.5708 [0.0094; 262.2440]
+Loomba R 2021b              DNL FXR agonist 5.5161 [0.0328; 928.6093]
+Loomba R 2021b      FXR agonist     Placebo 0.9737 [0.0050; 188.8853]
+Loomba R 2021b              DNL     Placebo 5.3710 [0.0319; 904.4132]
+
+Number of studies: k = 3
+Number of pairwise comparisons: m = 5
+Number of treatments: n = 5
+Number of designs: d = 3
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
+                 OR             95%-CI     z p-value
+DNL          5.3710 [0.0319; 904.4132]  0.64  0.5204
+FGF21 analog 1.5708 [0.0094; 262.2440]  0.17  0.8627
+FXR agonist  0.9737 [0.0050; 188.8853] -0.01  0.9921
+Incretins    1.6154 [0.0112; 233.9132]  0.19  0.8502
+Placebo           .                  .     .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 6.1704; tau = 2.4840
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q          d.f. p-value
+Total           0 -4.440892e-16      --
+Within designs  0  0.000000e+00      --
+Between designs 0  0.000000e+00      --
+
+Details of network meta-analysis methods:
+- Frequentist graph-theoretical approach
+- DerSimonian-Laird estimator for tau^2
