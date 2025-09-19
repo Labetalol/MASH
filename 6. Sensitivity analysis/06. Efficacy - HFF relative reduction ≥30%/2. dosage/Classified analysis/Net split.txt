@@ -1,0 +1,22 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Random effects model: 
+
+                                      comparison k prop     nma  direct  indir.     RoR     z p-value
+      FXR agonist:FXR agonist + THR-beta agonist 1 0.80  0.1418  0.1176  0.3031  0.3881 -0.34  0.7311
+                             FXR agonist:Placebo 7 0.96  4.5706  5.1166  0.3525 14.5172  1.13  0.2605
+                    FXR agonist:THR-beta agonist 1 0.49  0.3804  0.1905  0.7383  0.2580 -0.80  0.4246
+          FXR agonist + THR-beta agonist:Placebo 1 0.53 32.2237 65.1667 14.7451  4.4195  0.67  0.5018
+ FXR agonist + THR-beta agonist:THR-beta agonist 1 0.86  2.6817  1.6190 65.2602  0.0248 -1.13  0.2605
+                        THR-beta agonist:Placebo 2 0.80 12.0160 10.4584 20.8406  0.5018 -0.34  0.7311
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
