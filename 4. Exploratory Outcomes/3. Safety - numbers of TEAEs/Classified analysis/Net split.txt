@@ -1,0 +1,29 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Random effects model: 
+
+                                      comparison  k prop    nma direct indir.    RoR     z p-value
+                                 DNL:FXR agonist  1 0.09 0.6167 0.4595 0.6350 0.7236 -0.41  0.6826
+                                     DNL:Placebo  5 0.98 1.2497 1.2679 0.5180 2.4475  0.58  0.5636
+      FXR agonist:FXR agonist + THR-beta agonist  1 0.54 1.0148 0.5495 2.0945 0.2623 -1.74  0.0827
+                             FXR agonist:Placebo 10 0.98 2.0266 2.0563 1.1130 1.8475  0.78  0.4380
+                    FXR agonist:THR-beta agonist  1 0.14 1.4122 0.6735 1.5954 0.4221 -1.62  0.1050
+          FXR agonist + THR-beta agonist:Placebo  1 0.52 1.9971 1.5364 2.6591 0.5778 -0.73  0.4646
+ FXR agonist + THR-beta agonist:THR-beta agonist  1 0.85 1.3916 1.2257 2.9266 0.4188 -0.83  0.4062
+                        THR-beta agonist:Placebo  4 0.95 1.4351 1.3544 4.4949 0.3013 -1.74  0.0827
+                                    TZDs:Placebo  5 0.96 1.1600 1.1691 0.9391 1.2449  0.23  0.8172
+                        TZDs + Vitamin E:Placebo  1 0.78 2.0269 1.8619 2.7633 0.6738 -0.36  0.7159
+                               Vitamin E:Placebo  4 0.90 1.3308 1.1829 3.6963 0.3200 -1.48  0.1378
+                                  TZDs:Vitamin E  1 0.59 0.8716 0.6798 1.2403 0.5481 -1.14  0.2524
+                      TZDs + Vitamin E:Vitamin E  1 0.82 1.5231 1.6429 1.0816 1.5189  0.36  0.7159
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
