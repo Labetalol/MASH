@@ -1,0 +1,24 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Random effects model: 
+
+                 comparison k prop     nma  direct  indir.    Diff     z p-value
+            FXR agonist:DNL 1 0.43  0.1444  0.2803  0.0412  0.2391  0.72  0.4725
+                Placebo:DNL 2 0.88  0.4532  0.4470  0.4992 -0.0522 -0.11  0.9141
+        FXR agonist:Placebo 7 0.98 -0.3089 -0.3198  0.4029 -0.7226 -1.19  0.2324
+    Placebo:SGLT2 inhibitor 2 0.70  0.4052  0.2553  0.7537 -0.4984 -1.82  0.0689
+               Placebo:TZDs 5 0.82  0.4751  0.5629  0.0645  0.4984  1.82  0.0689
+   Placebo:TZDs + Vitamin E 1 0.75  0.1939  0.3977 -0.4109  0.8085  1.36  0.1753
+       SGLT2 inhibitor:TZDs 2 0.48  0.0699 -0.1908  0.3075 -0.4984 -1.82  0.0689
+ TZDs + Vitamin E:Vitamin E 1 0.83  0.0448  0.1988 -0.7272  0.9260  1.36  0.1753
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
