@@ -1,0 +1,21 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Random effects model: 
+
+                         comparison k prop    nma direct indir.    RoR     z p-value
+               Pioglitazone:Placebo 5 0.94 2.4279 2.7458 0.3872 7.0910  1.88  0.0598
+             Pioglitazone:Vitamin E 1 0.59 1.3990 0.7949 3.1066 0.2559 -2.09  0.0363
+                  Vitamin E:Placebo 3 0.91 1.7354 1.5178 6.5698 0.2310 -1.55  0.1214
+   Vitamin E + Pioglitazone:Placebo 1 0.78 2.9780 3.1364 2.4869 1.2611  0.19  0.8467
+ Vitamin E:Vitamin E + Pioglitazone 1 0.83 0.5827 0.6087 0.4730 1.2870  0.19  0.8467
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
