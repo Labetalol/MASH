@@ -1,0 +1,136 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                     treat1           treat2      TE   seTE seTE.adj narms multiarm
+Harrison SA 2021a              FGF19 analog          Placebo  1.3038 0.5822   0.6738     2         
+Harrison SA 2021b              FGF21 analog          Placebo  2.5649 1.7541   1.7866     2         
+Loomba R 2023a                 FGF21 analog          Placebo  0.0928 0.3714   0.5030     2         
+Neuschwander-Tetri BA 2015      FXR agonist          Placebo  0.7503 0.2905   0.4466     2         
+Younossi ZM; Ratziu V 2019      FXR agonist          Placebo  0.3539 0.1649   0.3771     2         
+Armstrong MJ 2016                 Incretins          Placebo -0.2693 0.5980   0.6875     2         
+Newsome PN 2021                   Incretins          Placebo  0.5352 0.3412   0.4811     2         
+Francque SM 2021                    Placebo     PPAR agonist -0.6029 0.3181   0.4650     2         
+Ratziu V 2016                       Placebo     PPAR agonist  0.8917 0.3149   0.4628     2         
+Cusi K 2016                         Placebo             TZDs -1.2910 0.4426   0.5576     2         
+Harrison SA 2023b                   Placebo             TZDs -0.5490 0.5867   0.6777     2         
+Ratziu V 2008                       Placebo             TZDs -0.5978 0.5157   0.6172     2         
+Sanyal A 2010                       Placebo             TZDs -0.9775 0.3466   0.6029     3        *
+Sanyal A 2010                          TZDs        Vitamin E  0.1960 0.3304   0.5743     3        *
+Sanyal A 2010                       Placebo        Vitamin E -0.7816 0.3340   0.5802     3        *
+Harrison SA 2019                    Placebo THR-beta agonist -1.2471 0.6027   0.6916     2         
+Harrison SA 2024a                   Placebo THR-beta agonist -0.6693 0.1641   0.3768     2         
+Bril F 2019                         Placebo        Vitamin E  0.3192 0.4974   0.7375     3        *
+Bril F 2019                TZDs + Vitamin E        Vitamin E  1.3045 0.4937   0.7302     3        *
+Bril F 2019                         Placebo TZDs + Vitamin E -0.9853 0.5003   0.7436     3        *
+Loomba R 2023d                    Incretins          Placebo  0.2107 0.5146   0.6163     2         
+Loomba R 2024a                    Incretins          Placebo  1.1116 0.4242   0.5432     2         
+Harrison SA 2022               FGF19 analog          Placebo  0.4080 0.4788   0.5868     2         
+Abdelmalek MF 2024             FGF21 analog          Placebo  0.5680 0.7685   0.8400     2         
+Loomba R 2021b                          DNL      FXR agonist  0.2385 0.4892   0.7244     3        *
+Loomba R 2021b                  FXR agonist          Placebo -0.0351 0.5020   0.7507     3        *
+Loomba R 2021b                          DNL          Placebo  0.2034 0.4905   0.7268     3        *
+Aithal GP 2008                      Placebo             TZDs -0.8174 0.5484   0.6448     2         
+NCT00227110                         Placebo             TZDs -1.5523 0.6350   0.7199     2         
+Song Y 2025                         Placebo        Vitamin E -0.0117 0.3775   0.5075     2         
+Sanyal A 2025                     Incretins          Placebo  0.8886 0.1862   0.3869     2         
+Lin J 2025                          Placebo  SGLT2 inhibitor -0.7953 0.3397   0.4801     2         
+
+Number of treatment arms (by study):
+                           narms
+Harrison SA 2021a              2
+Harrison SA 2021b              2
+Loomba R 2023a                 2
+Neuschwander-Tetri BA 2015     2
+Younossi ZM; Ratziu V 2019     2
+Armstrong MJ 2016              2
+Newsome PN 2021                2
+Francque SM 2021               2
+Ratziu V 2016                  2
+Cusi K 2016                    2
+Harrison SA 2023b              2
+Ratziu V 2008                  2
+Sanyal A 2010                  3
+Harrison SA 2019               2
+Harrison SA 2024a              2
+Bril F 2019                    3
+Loomba R 2023d                 2
+Loomba R 2024a                 2
+Harrison SA 2022               2
+Abdelmalek MF 2024             2
+Loomba R 2021b                 3
+Aithal GP 2008                 2
+NCT00227110                    2
+Song Y 2025                    2
+Sanyal A 2025                  2
+Lin J 2025                     2
+
+Results (random effects model):
+
+                                     treat1           treat2     OR           95%-CI
+Harrison SA 2021a              FGF19 analog          Placebo 2.2130 [0.9297; 5.2679]
+Harrison SA 2021b              FGF21 analog          Placebo 1.4156 [0.6221; 3.2212]
+Loomba R 2023a                 FGF21 analog          Placebo 1.4156 [0.6221; 3.2212]
+Neuschwander-Tetri BA 2015      FXR agonist          Placebo 1.5170 [0.9110; 2.5263]
+Younossi ZM; Ratziu V 2019      FXR agonist          Placebo 1.5170 [0.9110; 2.5263]
+Armstrong MJ 2016                 Incretins          Placebo 1.8721 [1.1960; 2.9303]
+Newsome PN 2021                   Incretins          Placebo 1.8721 [1.1960; 2.9303]
+Francque SM 2021                    Placebo     PPAR agonist 1.1594 [0.6096; 2.2054]
+Ratziu V 2016                       Placebo     PPAR agonist 1.1594 [0.6096; 2.2054]
+Cusi K 2016                         Placebo             TZDs 0.4135 [0.2585; 0.6614]
+Harrison SA 2023b                   Placebo             TZDs 0.4135 [0.2585; 0.6614]
+Ratziu V 2008                       Placebo             TZDs 0.4135 [0.2585; 0.6614]
+Sanyal A 2010                       Placebo             TZDs 0.4135 [0.2585; 0.6614]
+Sanyal A 2010                          TZDs        Vitamin E 1.8237 [0.9456; 3.5171]
+Sanyal A 2010                       Placebo        Vitamin E 0.7540 [0.4296; 1.3235]
+Harrison SA 2019                    Placebo THR-beta agonist 0.4486 [0.2346; 0.8581]
+Harrison SA 2024a                   Placebo THR-beta agonist 0.4486 [0.2346; 0.8581]
+Bril F 2019                         Placebo        Vitamin E 0.7540 [0.4296; 1.3235]
+Bril F 2019                TZDs + Vitamin E        Vitamin E 2.7434 [0.9525; 7.9014]
+Bril F 2019                         Placebo TZDs + Vitamin E 0.2749 [0.0952; 0.7938]
+Loomba R 2023d                    Incretins          Placebo 1.8721 [1.1960; 2.9303]
+Loomba R 2024a                    Incretins          Placebo 1.8721 [1.1960; 2.9303]
+Harrison SA 2022               FGF19 analog          Placebo 2.2130 [0.9297; 5.2679]
+Abdelmalek MF 2024             FGF21 analog          Placebo 1.4156 [0.6221; 3.2212]
+Loomba R 2021b                          DNL      FXR agonist 1.0134 [0.3592; 2.8594]
+Loomba R 2021b                  FXR agonist          Placebo 1.5170 [0.9110; 2.5263]
+Loomba R 2021b                          DNL          Placebo 1.5374 [0.5447; 4.3395]
+Aithal GP 2008                      Placebo             TZDs 0.4135 [0.2585; 0.6614]
+NCT00227110                         Placebo             TZDs 0.4135 [0.2585; 0.6614]
+Song Y 2025                         Placebo        Vitamin E 0.7540 [0.4296; 1.3235]
+Sanyal A 2025                     Incretins          Placebo 1.8721 [1.1960; 2.9303]
+Lin J 2025                          Placebo  SGLT2 inhibitor 0.4515 [0.1762; 1.1567]
+
+Number of studies: k = 26
+Number of pairwise comparisons: m = 32
+Number of treatments: n = 12
+Number of designs: d = 12
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
+                     OR            95%-CI     z p-value             95%-PI
+DNL              1.5374 [0.5447;  4.3395]  0.81  0.4166  [0.4103;  5.7610]
+FGF19 analog     2.2130 [0.9297;  5.2679]  1.80  0.0726  [0.6859;  7.1401]
+FGF21 analog     1.4156 [0.6221;  3.2212]  0.83  0.4073  [0.4558;  4.3971]
+FXR agonist      1.5170 [0.9110;  2.5263]  1.60  0.1093  [0.6179;  3.7245]
+Incretins        1.8721 [1.1960;  2.9303]  2.74  0.0061  [0.7927;  4.4213]
+Placebo               .                 .     .       .                  .
+PPAR agonist     0.8625 [0.4534;  1.6405] -0.45  0.6520  [0.3200;  2.3244]
+SGLT2 inhibitor  2.2151 [0.8645;  5.6756]  1.66  0.0976  [0.6443;  7.6157]
+THR-beta agonist 2.2289 [1.1653;  4.2632]  2.42  0.0154  [0.8236;  6.0318]
+TZDs             2.4185 [1.5120;  3.8687]  3.68  0.0002  [1.0106;  5.7877]
+TZDs + Vitamin E 3.6383 [1.2598; 10.5073]  2.39  0.0170  [0.9510; 13.9188]
+Vitamin E        1.3262 [0.7556;  2.3278]  0.98  0.3254  [0.5214;  3.3732]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.1151; tau = 0.3392; I^2 = 41.1% [0.0%; 65.9%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           30.57   18  0.0323
+Within designs  25.07   14  0.0339
+Between designs  5.50    4  0.2396
+
+Details of network meta-analysis methods:
+- Frequentist graph-theoretical approach
+- DerSimonian-Laird estimator for tau^2
+- Calculation of I^2 based on Q

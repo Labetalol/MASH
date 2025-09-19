@@ -1,0 +1,23 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Random effects model: 
+
+                 comparison k prop    nma direct  indir.    RoR     z p-value
+            DNL:FXR agonist 1 0.79 1.0134 1.2694  0.4339 2.9254  0.83  0.4089
+                DNL:Placebo 1 0.79 1.5374 1.2256  3.5730 0.3430 -0.83  0.4089
+               TZDs:Placebo 6 0.95 2.4185 2.6264  0.4410 5.9559  1.56  0.1181
+   TZDs + Vitamin E:Placebo 1 0.80 3.6383 2.6786 12.5149 0.2140 -1.14  0.2557
+          Vitamin E:Placebo 3 0.91 1.3262 1.2667  2.1190 0.5978 -0.51  0.6094
+             TZDs:Vitamin E 1 0.50 1.8237 1.2165  2.7374 0.4444 -1.21  0.2262
+ TZDs + Vitamin E:Vitamin E 1 0.81 2.7434 3.6859  0.7669 4.8060  1.14  0.2557
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
