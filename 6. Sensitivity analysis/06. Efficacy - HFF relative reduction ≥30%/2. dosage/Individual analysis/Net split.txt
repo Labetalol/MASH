@@ -1,0 +1,20 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Random effects model: 
+
+                   comparison k prop     nma  direct indir.     RoR    z p-value
+             TERN-501:Placebo 1 0.68 20.5077 40.2500 4.8509  8.2974 0.89  0.3722
+  TERN-501 + TERN-101:Placebo 1 0.69 33.2029 65.1667 7.5889  8.5871 0.89  0.3722
+            TERN-101:TERN-501 1 0.92  0.1477  0.1905 0.0092 20.8135 0.89  0.3722
+ TERN-101:TERN-501 + TERN-101 1 0.92  0.0912  0.1176 0.0052 22.7943 0.89  0.3722
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
