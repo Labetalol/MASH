@@ -1,0 +1,152 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                          treat1              treat2      TE   seTE seTE.adj narms multiarm
+Harrison SA 2018      Aldafermin             Placebo -1.4977 0.2625   0.3883     2         
+Harrison SA 2021a     Aldafermin             Placebo -0.7295 0.2504   0.3802     2         
+Harrison SA 2022      Aldafermin             Placebo -0.7228 0.1805   0.3384     2         
+Harrison SA 2021b   Efruxifermin             Placebo -3.3513 0.3671   0.4655     2         
+Harrison SA 2023a   Efruxifermin             Placebo -1.9409 0.2321   0.3685     2         
+Loomba R 2023b      Pegozafermin             Placebo -0.9451 0.1623   0.3290     2         
+Loomba R 2023c      Pegozafermin             Placebo -2.1886 0.3276   0.4350     2         
+Patel K 2020           Cilofexor             Placebo -0.5205 0.2288   0.3664     2         
+Ratziu V 2023a           Placebo           Vonafexor  0.7421 0.2286   0.3662     2         
+Harrison SA 2023b        Placebo              PXL065  0.6387 0.2158   0.3584     2         
+Huang, Jee-Fu 2021  Pioglitazone             Placebo -0.3943 0.2345   0.3700     2         
+Harrison SA 2019         Placebo          Resmetirom  0.8953 0.2160   0.3585     2         
+Harrison SA 2023c        Placebo          Resmetirom  0.7235 0.0741   0.2956     2         
+Harrison SA 2024a        Placebo          Resmetirom  0.7652 0.0835   0.2981     2         
+Harrison SA 2025a    Pemvidutide             Placebo -1.4008 0.2654   0.3903     2         
+Loomba R 2024a           Placebo         Tirzepatide  3.8931 0.2603   0.3868     2         
+Sanyal A 2024a           Placebo         Survodutide  1.7449 0.1591   0.3274     2         
+Calle RA 2021        Clesacostat             Placebo -1.2167 0.1514   0.3237     2         
+Loomba R 2024b       Denifanstat             Placebo -0.6067 0.1898   0.3434     2         
+Loomba R 2018        Firsocostat             Placebo -0.6418 0.2257   0.3645     2         
+Loomba R 2021a       Denifanstat             Placebo -0.4407 0.2354   0.3706     2         
+Sanyal A 2023            Placebo          Tropifexor  0.8989 0.1794   0.3377     2         
+Harrison SA 2020b        Placebo          Seladelpar -0.1512 0.2131   0.3568     2         
+Noureddin M 2024         Placebo            TERN-501  0.8961 0.2590   0.5396     4        *
+Noureddin M 2024        TERN-101            TERN-501  0.3372 0.2460   0.5217     4        *
+Noureddin M 2024        TERN-501 TERN-501 + TERN-101  0.2563 0.2047   0.4564     4        *
+Noureddin M 2024         Placebo            TERN-101  0.5589 0.3036   0.6386     4        *
+Noureddin M 2024        TERN-101 TERN-501 + TERN-101  0.5935 0.2640   0.5602     4        *
+Noureddin M 2024         Placebo TERN-501 + TERN-101  1.1524 0.2779   0.5876     4        *
+Yoneda M 2021       Pioglitazone       Tofogliflozin -0.5038 0.3313   0.4378     2         
+Eriksson JW 2018   Dapagliflozin             Placebo -0.5345 0.3302   0.4369     2         
+Cheung KS 2024     Empagliflozin             Placebo -0.4545 0.2057   0.3524     2         
+Alkhouri N 2024          Placebo           Vitamin E  0.0733 0.2367   0.3714     2         
+
+Number of treatment arms (by study):
+                   narms
+Harrison SA 2018       2
+Harrison SA 2021a      2
+Harrison SA 2022       2
+Harrison SA 2021b      2
+Harrison SA 2023a      2
+Loomba R 2023b         2
+Loomba R 2023c         2
+Patel K 2020           2
+Ratziu V 2023a         2
+Harrison SA 2023b      2
+Huang, Jee-Fu 2021     2
+Harrison SA 2019       2
+Harrison SA 2023c      2
+Harrison SA 2024a      2
+Harrison SA 2025a      2
+Loomba R 2024a         2
+Sanyal A 2024a         2
+Calle RA 2021          2
+Loomba R 2024b         2
+Loomba R 2018          2
+Loomba R 2021a         2
+Sanyal A 2023          2
+Harrison SA 2020b      2
+Noureddin M 2024       4
+Yoneda M 2021          2
+Eriksson JW 2018       2
+Cheung KS 2024         2
+Alkhouri N 2024        2
+
+Results (random effects model):
+
+                          treat1              treat2     SMD             95%-CI
+Harrison SA 2018      Aldafermin             Placebo -0.9555 [-1.3707; -0.5403]
+Harrison SA 2021a     Aldafermin             Placebo -0.9555 [-1.3707; -0.5403]
+Harrison SA 2022      Aldafermin             Placebo -0.9555 [-1.3707; -0.5403]
+Harrison SA 2021b   Efruxifermin             Placebo -2.4843 [-3.0505; -1.9180]
+Harrison SA 2023a   Efruxifermin             Placebo -2.4843 [-3.0505; -1.9180]
+Loomba R 2023b      Pegozafermin             Placebo -1.3976 [-1.9119; -0.8833]
+Loomba R 2023c      Pegozafermin             Placebo -1.3976 [-1.9119; -0.8833]
+Patel K 2020           Cilofexor             Placebo -0.5205 [-1.2386;  0.1976]
+Ratziu V 2023a           Placebo           Vonafexor  0.7421 [ 0.0243;  1.4599]
+Harrison SA 2023b        Placebo              PXL065  0.6387 [-0.0638;  1.3412]
+Huang, Jee-Fu 2021  Pioglitazone             Placebo -0.3943 [-1.1195;  0.3309]
+Harrison SA 2019         Placebo          Resmetirom  0.7828 [ 0.4277;  1.1378]
+Harrison SA 2023c        Placebo          Resmetirom  0.7828 [ 0.4277;  1.1378]
+Harrison SA 2024a        Placebo          Resmetirom  0.7828 [ 0.4277;  1.1378]
+Harrison SA 2025a    Pemvidutide             Placebo -1.4008 [-2.1658; -0.6358]
+Loomba R 2024a           Placebo         Tirzepatide  3.8931 [ 3.1348;  4.6513]
+Sanyal A 2024a           Placebo         Survodutide  1.7449 [ 1.1031;  2.3867]
+Calle RA 2021        Clesacostat             Placebo -1.2167 [-1.8513; -0.5822]
+Loomba R 2024b       Denifanstat             Placebo -0.5300 [-1.0237; -0.0363]
+Loomba R 2018        Firsocostat             Placebo -0.6418 [-1.3562;  0.0725]
+Loomba R 2021a       Denifanstat             Placebo -0.5300 [-1.0237; -0.0363]
+Sanyal A 2023            Placebo          Tropifexor  0.8989 [ 0.2369;  1.5608]
+Harrison SA 2020b        Placebo          Seladelpar -0.1512 [-0.8506;  0.5481]
+Noureddin M 2024         Placebo            TERN-501  0.8961 [ 0.1396;  1.6525]
+Noureddin M 2024        TERN-101            TERN-501  0.3372 [-0.4025;  1.0769]
+Noureddin M 2024        TERN-501 TERN-501 + TERN-101  0.2563 [-0.4333;  0.9459]
+Noureddin M 2024         Placebo            TERN-101  0.5589 [-0.2589;  1.3766]
+Noureddin M 2024        TERN-101 TERN-501 + TERN-101  0.5935 [-0.1696;  1.3566]
+Noureddin M 2024         Placebo TERN-501 + TERN-101  1.1524 [ 0.3705;  1.9342]
+Yoneda M 2021       Pioglitazone       Tofogliflozin -0.5038 [-1.3619;  0.3543]
+Eriksson JW 2018   Dapagliflozin             Placebo -0.5345 [-1.3909;  0.3219]
+Cheung KS 2024     Empagliflozin             Placebo -0.4545 [-1.1452;  0.2362]
+Alkhouri N 2024          Placebo           Vitamin E  0.0733 [-0.6546;  0.8012]
+
+Number of studies: k = 28
+Number of pairwise comparisons: m = 33
+Number of treatments: n = 24
+Number of designs: d = 21
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'Aldafermin'):
+                        SMD             95%-CI     z  p-value              95%-PI
+Aldafermin                .                  .     .        .                   .
+Cilofexor            0.4350 [-0.3945;  1.2645]  1.03   0.3040  [-0.7731;  1.6430]
+Clesacostat         -0.2613 [-1.0196;  0.4970] -0.68   0.4995  [-1.3992;  0.8767]
+Dapagliflozin        0.4210 [-0.5307;  1.3727]  0.87   0.3860  [-0.9118;  1.7538]
+Denifanstat          0.4255 [-0.2196;  1.0705]  1.29   0.1961  [-0.6058;  1.4568]
+Efruxifermin        -1.5288 [-2.2310; -0.8266] -4.27 < 0.0001  [-2.6130; -0.4446]
+Empagliflozin        0.5010 [-0.3049;  1.3069]  1.22   0.2231  [-0.6836;  1.6856]
+Firsocostat          0.3136 [-0.5126;  1.1399]  0.74   0.4569  [-0.8912;  1.5185]
+Pegozafermin        -0.4421 [-1.1031;  0.2189] -1.31   0.1899  [-1.4880;  0.6038]
+Pemvidutide         -0.4453 [-1.3157;  0.4250] -1.00   0.3159  [-1.6946;  0.8039]
+Pioglitazone         0.5611 [-0.2745;  1.3968]  1.32   0.1881  [-0.6531;  1.7753]
+Placebo              0.9555 [ 0.5403;  1.3707]  4.51 < 0.0001  [ 0.1135;  1.7974]
+PXL065               0.3167 [-0.4993;  1.1328]  0.76   0.4468  [-0.8779;  1.5114]
+Resmetirom           0.1727 [-0.3736;  0.7190]  0.62   0.5355  [-0.7719;  1.1173]
+Seladelpar           1.1067 [ 0.2934;  1.9200]  2.67   0.0077  [-0.0852;  2.2987]
+Survodutide         -0.7894 [-1.5538; -0.0250] -2.02   0.0430  [-1.9332;  0.3544]
+TERN-101             0.3966 [-0.5205;  1.3137]  0.85   0.3967  [-0.9004;  1.6936]
+TERN-501             0.0594 [-0.8035;  0.9223]  0.13   0.8927  [-1.1823;  1.3011]
+TERN-501 + TERN-101 -0.1969 [-1.0822;  0.6883] -0.44   0.6629  [-1.4613;  1.0674]
+Tirzepatide         -2.9376 [-3.8020; -2.0731] -6.66 < 0.0001  [-4.1808; -1.6944]
+Tofogliflozin        1.0649 [-0.1328;  2.2627]  1.74   0.0814  [-0.5307;  2.6606]
+Tropifexor           0.0566 [-0.7248;  0.8380]  0.14   0.8871  [-1.1038;  1.2170]
+Vitamin E            0.8822 [ 0.0441;  1.7202]  2.06   0.0391  [-0.3344;  2.0987]
+Vonafexor            0.2134 [-0.6159;  1.0426]  0.50   0.6140  [-0.9944;  1.4212]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0819; tau = 0.2862; I^2 = 76.4% [52.9%; 88.2%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           29.63    7  0.0001
+Within designs  29.63    7  0.0001
+Between designs  0.00    0      --
+
+Details of network meta-analysis methods:
+- Frequentist graph-theoretical approach
+- DerSimonian-Laird estimator for tau^2
+- Calculation of I^2 based on Q
