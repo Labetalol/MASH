@@ -1,0 +1,175 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                     treat1                   treat2      TE   seTE seTE.adj narms multiarm
+Harrison SA 2018                 Aldafermin                  Placebo -0.8993 0.2453   0.2786     2         
+Harrison SA 2021a                Aldafermin                  Placebo -0.9732 0.2557   0.2878     2         
+Harrison SA 2022                 Aldafermin                  Placebo -0.6491 0.1797   0.2230     2         
+Loomba R 2023b                 Pegozafermin                  Placebo -0.8370 0.1608   0.2081     2         
+Loomba R 2023c                 Pegozafermin                  Placebo -0.7345 0.2804   0.3100     2         
+Sanyal A 2019                  Pegbelfermin                  Placebo -0.4504 0.2547   0.2869     2         
+Neuschwander-Tetri BA 2015 Obeticholic acid                  Placebo -0.4396 0.1263   0.1827     2         
+Patel K 2020                      Cilofexor                  Placebo -0.4017 0.2126   0.2503     2         
+Ratziu V 2023a                      Placebo                Vonafexor  0.0029 0.2165   0.2536     2         
+Younossi ZM; Ratziu V 2019 Obeticholic acid                  Placebo -0.2529 0.0697   0.1494     2         
+Armstrong MJ 2016               Liraglutide                  Placebo -0.4674 0.3023   0.3299     2         
+Francque SM 2021               Lanifibranor                  Placebo -0.7218 0.1454   0.1965     2         
+Aithal GP 2008                 Pioglitazone                  Placebo -0.6499 0.2386   0.2727     2         
+Cusi K 2016                    Pioglitazone                  Placebo -0.7085 0.2052   0.2440     2         
+Harrison SA 2023b                   Placebo                   PXL065  0.0226 0.2117   0.2496     2         
+Huang, Jee-Fu 2021             Pioglitazone                  Placebo -0.8189 0.2236   0.2597     2         
+Harrison SA 2019                    Placebo               Resmetirom  0.7272 0.2013   0.2408     2         
+Harrison SA 2023c                   Placebo               Resmetirom  0.3409 0.0946   0.1625     2         
+Harrison SA 2024a                   Placebo               Resmetirom  0.3871 0.0780   0.1534     2         
+Harrison SA 2025a               Pemvidutide                  Placebo -0.5472 0.2551   0.2872     2         
+Loomba R 2023d                      Placebo              Semaglutide  0.6896 0.2575   0.2894     2         
+Loomba R 2024b                  Denifanstat                  Placebo -0.2678 0.1899   0.2313     2         
+Harrison SA 2023d              Efruxifermin                  Placebo -1.1024 0.4126   0.4332     2         
+Rinella ME 2024                  Aldafermin                  Placebo -0.8937 0.1754   0.2196     2         
+Loomba R 2021b                    Cilofexor              Firsocostat  0.2803 0.2243   0.3164     3        *
+Loomba R 2021b                    Cilofexor                  Placebo -0.4070 0.2266   0.3209     3        *
+Loomba R 2021b                  Firsocostat                  Placebo -0.6873 0.2294   0.3271     3        *
+Ratziu V 2022                       EDP-305                  Placebo -0.3644 0.2268   0.2624     2         
+Sanyal A 2023                       Placebo               Tropifexor  0.3829 0.1732   0.2178     2         
+Siddiqui MS 2021                    Placebo             Saroglitazar  0.4356 0.6451   0.6585     2         
+Yoneda M 2021                  Pioglitazone            Tofogliflozin -0.3521 0.3287   0.3543     2         
+NCT05254626                   Dapagliflozin             Pioglitazone -0.4528 0.2136   0.2511     2         
+Bril F 2019                         Placebo                Vitamin E  0.5965 0.2721   0.3736     3        *
+Bril F 2019                       Vitamin E Vitamin E + Pioglitazone -0.1988 0.2550   0.3395     3        *
+Bril F 2019                         Placebo Vitamin E + Pioglitazone  0.3977 0.2776   0.3876     3        *
+NCT00227110                    Pioglitazone                  Placebo -0.7089 0.3024   0.3300     2         
+Cheung KS 2024                Empagliflozin                  Placebo -0.3787 0.2038   0.2429     2         
+Alkhouri N 2024                     Placebo                Vitamin E  0.3116 0.1637   0.2103     2         
+Song Y 2025                         Placebo                Vitamin E -0.0331 0.1813   0.2243     2         
+Lin J 2025                    Dapagliflozin                  Placebo -0.1672 0.1615   0.2086     2         
+
+Number of treatment arms (by study):
+                           narms
+Harrison SA 2018               2
+Harrison SA 2021a              2
+Harrison SA 2022               2
+Loomba R 2023b                 2
+Loomba R 2023c                 2
+Sanyal A 2019                  2
+Neuschwander-Tetri BA 2015     2
+Patel K 2020                   2
+Ratziu V 2023a                 2
+Younossi ZM; Ratziu V 2019     2
+Armstrong MJ 2016              2
+Francque SM 2021               2
+Aithal GP 2008                 2
+Cusi K 2016                    2
+Harrison SA 2023b              2
+Huang, Jee-Fu 2021             2
+Harrison SA 2019               2
+Harrison SA 2023c              2
+Harrison SA 2024a              2
+Harrison SA 2025a              2
+Loomba R 2023d                 2
+Loomba R 2024b                 2
+Harrison SA 2023d              2
+Rinella ME 2024                2
+Loomba R 2021b                 3
+Ratziu V 2022                  2
+Sanyal A 2023                  2
+Siddiqui MS 2021               2
+Yoneda M 2021                  2
+NCT05254626                    2
+Bril F 2019                    3
+NCT00227110                    2
+Cheung KS 2024                 2
+Alkhouri N 2024                2
+Song Y 2025                    2
+Lin J 2025                     2
+
+Results (random effects model):
+
+                                     treat1                   treat2     SMD             95%-CI
+Harrison SA 2018                 Aldafermin                  Placebo -0.8346 [-1.0763; -0.5930]
+Harrison SA 2021a                Aldafermin                  Placebo -0.8346 [-1.0763; -0.5930]
+Harrison SA 2022                 Aldafermin                  Placebo -0.8346 [-1.0763; -0.5930]
+Loomba R 2023b                 Pegozafermin                  Placebo -0.8052 [-1.1438; -0.4665]
+Loomba R 2023c                 Pegozafermin                  Placebo -0.8052 [-1.1438; -0.4665]
+Sanyal A 2019                  Pegbelfermin                  Placebo -0.4504 [-1.0127;  0.1119]
+Neuschwander-Tetri BA 2015 Obeticholic acid                  Placebo -0.3277 [-0.5544; -0.1010]
+Patel K 2020                      Cilofexor                  Placebo -0.4042 [-0.7592; -0.0493]
+Ratziu V 2023a                      Placebo                Vonafexor  0.0029 [-0.4942;  0.5000]
+Younossi ZM; Ratziu V 2019 Obeticholic acid                  Placebo -0.3277 [-0.5544; -0.1010]
+Armstrong MJ 2016               Liraglutide                  Placebo -0.4674 [-1.1139;  0.1792]
+Francque SM 2021               Lanifibranor                  Placebo -0.7218 [-1.1069; -0.3367]
+Aithal GP 2008                 Pioglitazone                  Placebo -0.5753 [-0.8210; -0.3296]
+Cusi K 2016                    Pioglitazone                  Placebo -0.5753 [-0.8210; -0.3296]
+Harrison SA 2023b                   Placebo                   PXL065  0.0226 [-0.4666;  0.5117]
+Huang, Jee-Fu 2021             Pioglitazone                  Placebo -0.5753 [-0.8210; -0.3296]
+Harrison SA 2019                    Placebo               Resmetirom  0.4293 [ 0.2309;  0.6277]
+Harrison SA 2023c                   Placebo               Resmetirom  0.4293 [ 0.2309;  0.6277]
+Harrison SA 2024a                   Placebo               Resmetirom  0.4293 [ 0.2309;  0.6277]
+Harrison SA 2025a               Pemvidutide                  Placebo -0.5472 [-1.1102;  0.0158]
+Loomba R 2023d                      Placebo              Semaglutide  0.6896 [ 0.1224;  1.2567]
+Loomba R 2024b                  Denifanstat                  Placebo -0.2678 [-0.7211;  0.1855]
+Harrison SA 2023d              Efruxifermin                  Placebo -1.1024 [-1.9515; -0.2532]
+Rinella ME 2024                  Aldafermin                  Placebo -0.8346 [-1.0763; -0.5930]
+Loomba R 2021b                    Cilofexor              Firsocostat  0.2816 [-0.1960;  0.7592]
+Loomba R 2021b                    Cilofexor                  Placebo -0.4042 [-0.7592; -0.0493]
+Loomba R 2021b                  Firsocostat                  Placebo -0.6859 [-1.1678; -0.2039]
+Ratziu V 2022                       EDP-305                  Placebo -0.3644 [-0.8788;  0.1500]
+Sanyal A 2023                       Placebo               Tropifexor  0.3829 [-0.0440;  0.8098]
+Siddiqui MS 2021                    Placebo             Saroglitazar  0.4356 [-0.8551;  1.7262]
+Yoneda M 2021                  Pioglitazone            Tofogliflozin -0.3521 [-1.0465;  0.3423]
+NCT05254626                   Dapagliflozin             Pioglitazone  0.0566 [-0.2899;  0.4030]
+Bril F 2019                         Placebo                Vitamin E  0.2416 [-0.0266;  0.5098]
+Bril F 2019                       Vitamin E Vitamin E + Pioglitazone -0.0448 [-0.5587;  0.4691]
+Bril F 2019                         Placebo Vitamin E + Pioglitazone  0.1969 [-0.3262;  0.7199]
+NCT00227110                    Pioglitazone                  Placebo -0.5753 [-0.8210; -0.3296]
+Cheung KS 2024                Empagliflozin                  Placebo -0.3787 [-0.8548;  0.0974]
+Alkhouri N 2024                     Placebo                Vitamin E  0.2416 [-0.0266;  0.5098]
+Song Y 2025                         Placebo                Vitamin E  0.2416 [-0.0266;  0.5098]
+Lin J 2025                    Dapagliflozin                  Placebo -0.5187 [-0.8489; -0.1886]
+
+Number of studies: k = 36
+Number of pairwise comparisons: m = 40
+Number of treatments: n = 25
+Number of designs: d = 25
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'Aldafermin'):
+                             SMD            95%-CI     z  p-value             95%-PI
+Aldafermin                     .                 .     .        .                  .
+Cilofexor                 0.4304 [ 0.0010; 0.8598]  1.96   0.0495  [-0.1183; 0.9791]
+Dapagliflozin             0.3159 [-0.0932; 0.7250]  1.51   0.1302  [-0.2139; 0.8457]
+Denifanstat               0.5668 [ 0.0531; 1.0805]  2.16   0.0306  [-0.0627; 1.1963]
+EDP-305                   0.4703 [-0.0980; 1.0386]  1.62   0.1048  [-0.2131; 1.1537]
+Efruxifermin             -0.2678 [-1.1506; 0.6151] -0.59   0.5522  [-1.2746; 0.7390]
+Empagliflozin             0.4559 [-0.0779; 0.9898]  1.67   0.0942  [-0.1934; 1.1052]
+Firsocostat               0.1488 [-0.3904; 0.6879]  0.54   0.5886  [-0.5057; 0.8033]
+Lanifibranor              0.1128 [-0.3418; 0.5674]  0.49   0.6266  [-0.4597; 0.6853]
+Liraglutide               0.3673 [-0.3229; 1.0575]  1.04   0.2970  [-0.4394; 1.1740]
+Obeticholic acid          0.5070 [ 0.1756; 0.8383]  3.00   0.0027  [ 0.0468; 0.9671]
+Pegbelfermin              0.3843 [-0.2278; 0.9963]  1.23   0.2185  [-0.3429; 1.1114]
+Pegozafermin              0.0295 [-0.3865; 0.4455]  0.14   0.8895  [-0.5067; 0.5657]
+Pemvidutide               0.2874 [-0.3252; 0.9001]  0.92   0.3578  [-0.4404; 1.0153]
+Pioglitazone              0.2593 [-0.0853; 0.6039]  1.47   0.1402  [-0.2124; 0.7310]
+Placebo                   0.8346 [ 0.5930; 1.0763]  6.77 < 0.0001  [ 0.4471; 1.2222]
+PXL065                    0.8121 [ 0.2665; 1.3576]  2.92   0.0035  [ 0.1512; 1.4729]
+Resmetirom                0.4053 [ 0.0927; 0.7180]  2.54   0.0111  [-0.0389; 0.8496]
+Saroglitazar              0.3991 [-0.9140; 1.7122]  0.60   0.5514  [-1.0655; 1.8636]
+Semaglutide               0.1451 [-0.4714; 0.7616]  0.46   0.6447  [-0.5867; 0.8768]
+Tofogliflozin             0.6115 [-0.1638; 1.3867]  1.55   0.1221  [-0.2829; 1.5058]
+Tropifexor                0.4517 [-0.0388; 0.9423]  1.80   0.0711  [-0.1553; 1.0587]
+Vitamin E                 0.5930 [ 0.2320; 0.9540]  3.22   0.0013  [ 0.1069; 1.0791]
+Vitamin E + Pioglitazone  0.6378 [ 0.0616; 1.2139]  2.17   0.0300  [-0.0535; 1.3290]
+Vonafexor                 0.8317 [ 0.2790; 1.3844]  2.95   0.0032  [ 0.1638; 1.4996]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0175; tau = 0.1321; I^2 = 38.5% [0.0%; 66.7%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           22.76   14  0.0642
+Within designs   8.65   11  0.6544
+Between designs 14.12    3  0.0028
+
+Details of network meta-analysis methods:
+- Frequentist graph-theoretical approach
+- DerSimonian-Laird estimator for tau^2
+- Calculation of I^2 based on Q
